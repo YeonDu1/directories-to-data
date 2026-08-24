@@ -1,0 +1,36 @@
+{
+    "abbreviations": {
+      "file": "abbreviations.pdf",
+      "page": 1
+    },
+    "houston_street_directory": {
+      "file": "houston_street_directory.pdf",
+      "page_start": 1,
+      "page_end": 14,
+      "notes": "PDF pages 31-44 in the full 1900-1901.pdf. Split into standalone file."
+    },
+    "ward_boundaries_and_streets": {
+      "file": "ward_boundaries_and_streets.pdf",
+      "page_start": 1,
+      "page_end": 1
+    },
+    "halls_parks_buildings": {
+      "file": "halls_parks_buildings.pdf",
+      "page": 1
+    },
+    "cemeteries_and_street_railroads": {
+      "file": "cemeteries_and_street_railroads.pdf",
+      "page": 1
+    },
+    "guide_to_streets": {
+      "file": "guide_to_streets.pdf",
+      "page_start": 1,
+      "page_end": 4
+    },
+    "entries_source": {
+      "file": "1900-1901.pdf",
+      "page_start": 55,
+      "page_end": 445,
+      "notes": "Occasional full-page advertisements appear between directory entries throughout this range. The pipeline skips advertisement content automatically via the prompt."
+    }
+  }

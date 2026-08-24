@@ -1,0 +1,767 @@
+==================================================
+Pipeline run for 1900_01
+Started: Mon Aug 17 14:29:44 CDT 2026
+PDF: data/1900_01/1900-1901.pdf
+==================================================
+
+>>> STAGE 1/3: Transcription (01_ocr_entries.py)
+>>> Mon Aug 17 14:29:44 CDT 2026
+Loading abbreviations from config/1900_01 ...
+  104 abbreviations loaded.
+Using page range from page_layout.json: 55-445 (391 pages)
+
+Processing 391 page(s) from data/1900_01/1900-1901.pdf in batches of 4 -> data/1900_01/pages
+
+Batch 1: pages [55, 56, 57, 58]
+  Page 55: already done (8 lines) — skipping.
+  Page 56: already done (77 lines) — skipping.
+  Page 57: already done (77 lines) — skipping.
+  Page 58: already done (80 lines) — skipping.
+
+Batch 2: pages [59, 60, 61, 62]
+  Page 59: already done (75 lines) — skipping.
+  Page 60: already done (58 lines) — skipping.
+  Page 61: already done (69 lines) — skipping.
+  Page 62: already done (76 lines) — skipping.
+
+Batch 3: pages [63, 64, 65, 66]
+  Page 63: already done (67 lines) — skipping.
+  Page 64: already done (71 lines) — skipping.
+  Page 65: already done (0 lines) — skipping.
+  Page 66: already done (0 lines) — skipping.
+
+Batch 4: pages [67, 68, 69, 70]
+  Page 67: already done (71 lines) — skipping.
+  Page 68: already done (77 lines) — skipping.
+  Page 69: already done (69 lines) — skipping.
+  Page 70: already done (78 lines) — skipping.
+
+Batch 5: pages [71, 72, 73, 74]
+  Page 71: already done (75 lines) — skipping.
+  Page 72: already done (83 lines) — skipping.
+  Page 73: already done (73 lines) — skipping.
+  Page 74: already done (81 lines) — skipping.
+
+Batch 6: pages [75, 76, 77, 78]
+  Page 75: already done (70 lines) — skipping.
+  Page 76: already done (81 lines) — skipping.
+  Page 77: already done (75 lines) — skipping.
+  Page 78: already done (75 lines) — skipping.
+
+Batch 7: pages [79, 80, 81, 82]
+  Page 79: already done (1 lines) — skipping.
+  Page 80: already done (3 lines) — skipping.
+  Page 81: already done (54 lines) — skipping.
+  Page 82: already done (77 lines) — skipping.
+
+Batch 8: pages [83, 84, 85, 86]
+  Page 83: already done (79 lines) — skipping.
+  Page 84: already done (80 lines) — skipping.
+  Page 85: already done (78 lines) — skipping.
+  Page 86: already done (84 lines) — skipping.
+
+Batch 9: pages [87, 88, 89, 90]
+  Page 87: already done (74 lines) — skipping.
+  Page 88: already done (69 lines) — skipping.
+  Page 89: already done (10 lines) — skipping.
+  Page 90: already done (13 lines) — skipping.
+
+Batch 10: pages [91, 92, 93, 94]
+  Page 91: already done (80 lines) — skipping.
+  Page 92: already done (71 lines) — skipping.
+  Page 93: already done (79 lines) — skipping.
+  Page 94: already done (72 lines) — skipping.
+
+Batch 11: pages [95, 96, 97, 98]
+  Page 95: already done (77 lines) — skipping.
+  Page 96: already done (82 lines) — skipping.
+  Page 97: already done (80 lines) — skipping.
+  Page 98: already done (79 lines) — skipping.
+
+Batch 12: pages [99, 100, 101, 102]
+  Page 99: already done (84 lines) — skipping.
+  Page 100: already done (72 lines) — skipping.
+  Page 101: already done (83 lines) — skipping.
+  Page 102: already done (69 lines) — skipping.
+
+Batch 13: pages [103, 104, 105, 106]
+  Page 103: already done (72 lines) — skipping.
+  Page 104: already done (86 lines) — skipping.
+  Page 105: already done (79 lines) — skipping.
+  Page 106: already done (36 lines) — skipping.
+
+Batch 14: pages [107, 108, 109, 110]
+  Page 107: already done (67 lines) — skipping.
+  Page 108: already done (78 lines) — skipping.
+  Page 109: already done (65 lines) — skipping.
+  Page 110: already done (75 lines) — skipping.
+
+Batch 15: pages [111, 112, 113, 114]
+  Page 111: already done (73 lines) — skipping.
+  Page 112: already done (72 lines) — skipping.
+  Page 113: already done (70 lines) — skipping.
+  Page 114: already done (81 lines) — skipping.
+
+Batch 16: pages [115, 116, 117, 118]
+  Page 115: already done (65 lines) — skipping.
+  Page 116: already done (67 lines) — skipping.
+  Page 117: already done (88 lines) — skipping.
+  Page 118: already done (75 lines) — skipping.
+
+Batch 17: pages [119, 120, 121, 122]
+  Page 119: already done (0 lines) — skipping.
+  Page 120: already done (0 lines) — skipping.
+  Page 121: already done (70 lines) — skipping.
+  Page 122: already done (69 lines) — skipping.
+
+Batch 18: pages [123, 124, 125, 126]
+  Page 123: already done (76 lines) — skipping.
+  Page 124: already done (77 lines) — skipping.
+  Page 125: already done (69 lines) — skipping.
+  Page 126: already done (74 lines) — skipping.
+
+Batch 19: pages [127, 128, 129, 130]
+  Page 127: already done (81 lines) — skipping.
+  Page 128: already done (65 lines) — skipping.
+  Page 129: already done (76 lines) — skipping.
+  Page 130: already done (66 lines) — skipping.
+
+Batch 20: pages [131, 132, 133, 134]
+  Page 131: already done (73 lines) — skipping.
+  Page 132: already done (73 lines) — skipping.
+  Page 133: already done (66 lines) — skipping.
+  Page 134: already done (50 lines) — skipping.
+
+Batch 21: pages [135, 136, 137, 138]
+  Page 135: already done (57 lines) — skipping.
+  Page 136: already done (79 lines) — skipping.
+  Page 137: already done (89 lines) — skipping.
+  Page 138: already done (85 lines) — skipping.
+
+Batch 22: pages [139, 140, 141, 142]
+  Page 139: already done (80 lines) — skipping.
+  Page 140: already done (78 lines) — skipping.
+  Page 141: already done (78 lines) — skipping.
+  Page 142: already done (64 lines) — skipping.
+
+Batch 23: pages [143, 144, 145, 146]
+  Page 143: already done (68 lines) — skipping.
+  Page 144: already done (4 lines) — skipping.
+  Page 145: already done (68 lines) — skipping.
+  Page 146: already done (69 lines) — skipping.
+
+Batch 24: pages [147, 148, 149, 150]
+  Page 147: already done (66 lines) — skipping.
+  Page 148: already done (78 lines) — skipping.
+  Page 149: already done (76 lines) — skipping.
+  Page 150: already done (65 lines) — skipping.
+
+Batch 25: pages [151, 152, 153, 154]
+  Page 151: already done (69 lines) — skipping.
+  Page 152: already done (71 lines) — skipping.
+  Page 153: already done (68 lines) — skipping.
+  Page 154: already done (84 lines) — skipping.
+
+Batch 26: pages [155, 156, 157, 158]
+  Page 155: already done (79 lines) — skipping.
+  Page 156: already done (78 lines) — skipping.
+  Page 157: already done (73 lines) — skipping.
+  Page 158: already done (78 lines) — skipping.
+
+Batch 27: pages [159, 160, 161, 162]
+  Page 159: already done (78 lines) — skipping.
+  Page 160: already done (54 lines) — skipping.
+  Page 161: already done (79 lines) — skipping.
+  Page 162: already done (76 lines) — skipping.
+
+Batch 28: pages [163, 164, 165, 166]
+  Page 163: already done (70 lines) — skipping.
+  Page 164: already done (75 lines) — skipping.
+  Page 165: already done (76 lines) — skipping.
+  Page 166: already done (78 lines) — skipping.
+
+Batch 29: pages [167, 168, 169, 170]
+  Page 167: already done (77 lines) — skipping.
+  Page 168: already done (75 lines) — skipping.
+  Page 169: already done (71 lines) — skipping.
+  Page 170: already done (76 lines) — skipping.
+
+Batch 30: pages [171, 172, 173, 174]
+  Page 171: already done (77 lines) — skipping.
+  Page 172: already done (72 lines) — skipping.
+  Page 173: already done (62 lines) — skipping.
+  Page 174: already done (66 lines) — skipping.
+
+Batch 31: pages [175, 176, 177, 178]
+  Page 175: already done (75 lines) — skipping.
+  Page 176: already done (75 lines) — skipping.
+  Page 177: already done (71 lines) — skipping.
+  Page 178: already done (67 lines) — skipping.
+
+Batch 32: pages [179, 180, 181, 182]
+  Page 179: already done (86 lines) — skipping.
+  Page 180: already done (77 lines) — skipping.
+  Page 181: already done (70 lines) — skipping.
+  Page 182: already done (75 lines) — skipping.
+
+Batch 33: pages [183, 184, 185, 186]
+  Page 183: already done (82 lines) — skipping.
+  Page 184: already done (71 lines) — skipping.
+  Page 185: already done (75 lines) — skipping.
+  Page 186: already done (96 lines) — skipping.
+
+Batch 34: pages [187, 188, 189, 190]
+  Page 187: already done (70 lines) — skipping.
+  Page 188: already done (83 lines) — skipping.
+  Page 189: already done (74 lines) — skipping.
+  Page 190: already done (56 lines) — skipping.
+
+Batch 35: pages [191, 192, 193, 194]
+  Page 191: already done (47 lines) — skipping.
+  Page 192: already done (79 lines) — skipping.
+  Page 193: already done (65 lines) — skipping.
+  Page 194: already done (76 lines) — skipping.
+
+Batch 36: pages [195, 196, 197, 198]
+  Page 195: already done (76 lines) — skipping.
+  Page 196: already done (77 lines) — skipping.
+  Page 197: already done (92 lines) — skipping.
+  Page 198: already done (71 lines) — skipping.
+
+Batch 37: pages [199, 200, 201, 202]
+  Page 199: already done (73 lines) — skipping.
+  Page 200: already done (81 lines) — skipping.
+  Page 201: already done (80 lines) — skipping.
+  Page 202: already done (61 lines) — skipping.
+
+Batch 38: pages [203, 204, 205, 206]
+  Page 203: already done (12 lines) — skipping.
+  Page 204: already done (12 lines) — skipping.
+  Page 205: already done (69 lines) — skipping.
+  Page 206: already done (80 lines) — skipping.
+
+Batch 39: pages [207, 208, 209, 210]
+  Page 207: already done (74 lines) — skipping.
+  Page 208: already done (88 lines) — skipping.
+  Page 209: already done (77 lines) — skipping.
+  Page 210: already done (74 lines) — skipping.
+
+Batch 40: pages [211, 212, 213, 214]
+  Page 211: already done (76 lines) — skipping.
+  Page 212: already done (84 lines) — skipping.
+  Page 213: already done (70 lines) — skipping.
+  Page 214: already done (66 lines) — skipping.
+
+Batch 41: pages [215, 216, 217, 218]
+  Page 215: already done (40 lines) — skipping.
+  Page 216: already done (25 lines) — skipping.
+  Page 217: already done (4 lines) — skipping.
+  Page 218: already done (4 lines) — skipping.
+
+Batch 42: pages [219, 220, 221, 222]
+  Page 219: already done (2 lines) — skipping.
+  Page 220: already done (2 lines) — skipping.
+  Page 221: already done (42 lines) — skipping.
+  Page 222: already done (51 lines) — skipping.
+
+Batch 43: pages [223, 224, 225, 226]
+  Page 223: already done (75 lines) — skipping.
+  Page 224: already done (81 lines) — skipping.
+  Page 225: already done (71 lines) — skipping.
+  Page 226: already done (77 lines) — skipping.
+
+Batch 44: pages [227, 228, 229, 230]
+  Page 227: already done (66 lines) — skipping.
+  Page 228: already done (62 lines) — skipping.
+  Page 229: already done (63 lines) — skipping.
+  Page 230: already done (85 lines) — skipping.
+
+Batch 45: pages [231, 232, 233, 234]
+  Page 231: already done (92 lines) — skipping.
+  Page 232: already done (82 lines) — skipping.
+  Page 233: already done (76 lines) — skipping.
+  Page 234: already done (82 lines) — skipping.
+
+Batch 46: pages [235, 236, 237, 238]
+  Page 235: already done (82 lines) — skipping.
+  Page 236: already done (91 lines) — skipping.
+  Page 237: already done (86 lines) — skipping.
+  Page 238: already done (86 lines) — skipping.
+
+Batch 47: pages [239, 240, 241, 242]
+  Page 239: already done (80 lines) — skipping.
+  Page 240: already done (80 lines) — skipping.
+  Page 241: already done (90 lines) — skipping.
+  Page 242: already done (87 lines) — skipping.
+
+Batch 48: pages [243, 244, 245, 246]
+  Page 243: already done (50 lines) — skipping.
+  Page 244: already done (66 lines) — skipping.
+  Page 245: already done (75 lines) — skipping.
+  Page 246: already done (83 lines) — skipping.
+
+Batch 49: pages [247, 248, 249, 250]
+  Page 247: already done (78 lines) — skipping.
+  Page 248: already done (72 lines) — skipping.
+  Page 249: already done (74 lines) — skipping.
+  Page 250: already done (80 lines) — skipping.
+
+Batch 50: pages [251, 252, 253, 254]
+  Page 251: already done (65 lines) — skipping.
+  Page 252: already done (76 lines) — skipping.
+  Page 253: already done (68 lines) — skipping.
+  Page 254: already done (72 lines) — skipping.
+
+Batch 51: pages [255, 256, 257, 258]
+  Page 255: already done (56 lines) — skipping.
+  Page 256: already done (75 lines) — skipping.
+  Page 257: already done (10 lines) — skipping.
+  Page 258: already done (9 lines) — skipping.
+
+Batch 52: pages [259, 260, 261, 262]
+  Page 259: already done (79 lines) — skipping.
+  Page 260: already done (70 lines) — skipping.
+  Page 261: already done (72 lines) — skipping.
+  Page 262: already done (83 lines) — skipping.
+
+Batch 53: pages [263, 264, 265, 266]
+  Page 263: already done (78 lines) — skipping.
+  Page 264: already done (70 lines) — skipping.
+  Page 265: already done (89 lines) — skipping.
+  Page 266: already done (74 lines) — skipping.
+
+Batch 54: pages [267, 268, 269, 270]
+  Page 267: already done (74 lines) — skipping.
+  Page 268: already done (76 lines) — skipping.
+  Page 269: already done (78 lines) — skipping.
+  Page 270: already done (80 lines) — skipping.
+
+Batch 55: pages [271, 272, 273, 274]
+  Page 271: already done (74 lines) — skipping.
+  Page 272: already done (51 lines) — skipping.
+  Page 273: already done (67 lines) — skipping.
+  Page 274: already done (72 lines) — skipping.
+
+Batch 56: pages [275, 276, 277, 278]
+  Page 275: already done (70 lines) — skipping.
+  Page 276: already done (75 lines) — skipping.
+  Page 277: already done (79 lines) — skipping.
+  Page 278: already done (77 lines) — skipping.
+
+Batch 57: pages [279, 280, 281, 282]
+  Page 279: already done (75 lines) — skipping.
+  Page 280: already done (81 lines) — skipping.
+  Page 281: already done (70 lines) — skipping.
+  Page 282: already done (81 lines) — skipping.
+
+Batch 58: pages [283, 284, 285, 286]
+  Page 283: already done (72 lines) — skipping.
+  Page 284: already done (77 lines) — skipping.
+  Page 285: already done (71 lines) — skipping.
+  Page 286: already done (67 lines) — skipping.
+
+Batch 59: pages [287, 288, 289, 290]
+  Page 287: already done (73 lines) — skipping.
+  Page 288: already done (74 lines) — skipping.
+  Page 289: already done (61 lines) — skipping.
+  Page 290: already done (63 lines) — skipping.
+
+Batch 60: pages [291, 292, 293, 294]
+  Page 291: already done (67 lines) — skipping.
+  Page 292: already done (75 lines) — skipping.
+  Page 293: already done (80 lines) — skipping.
+  Page 294: already done (68 lines) — skipping.
+
+Batch 61: pages [295, 296, 297, 298]
+  Page 295: already done (73 lines) — skipping.
+  Page 296: already done (80 lines) — skipping.
+  Page 297: already done (76 lines) — skipping.
+  Page 298: already done (85 lines) — skipping.
+
+Batch 62: pages [299, 300, 301, 302]
+  Page 299: already done (85 lines) — skipping.
+  Page 300: already done (59 lines) — skipping.
+  Page 301: already done (71 lines) — skipping.
+  Page 302: already done (70 lines) — skipping.
+
+Batch 63: pages [303, 304, 305, 306]
+  Page 303: already done (69 lines) — skipping.
+  Page 304: already done (66 lines) — skipping.
+  Page 305: already done (0 lines) — skipping.
+  Page 306: already done (0 lines) — skipping.
+
+Batch 64: pages [307, 308, 309, 310]
+  Page 307: already done (78 lines) — skipping.
+  Page 308: already done (69 lines) — skipping.
+  Page 309: already done (77 lines) — skipping.
+  Page 310: already done (72 lines) — skipping.
+
+Batch 65: pages [311, 312, 313, 314]
+  Page 311: already done (71 lines) — skipping.
+  Page 312: already done (68 lines) — skipping.
+  Page 313: already done (72 lines) — skipping.
+  Page 314: already done (67 lines) — skipping.
+
+Batch 66: pages [315, 316, 317, 318]
+  Page 315: already done (0 lines) — skipping.
+  Page 316: already done (0 lines) — skipping.
+  Page 317: already done (43 lines) — skipping.
+  Page 318: already done (58 lines) — skipping.
+
+Batch 67: pages [319, 320, 321, 322]
+  Page 319: already done (73 lines) — skipping.
+  Page 320: already done (76 lines) — skipping.
+  Page 321: already done (62 lines) — skipping.
+  Page 322: already done (75 lines) — skipping.
+
+Batch 68: pages [323, 324, 325, 326]
+  Fetching pages [323, 324, 325, 326] in one batch call...
+  ERROR on batch [323, 324, 325, 326]: Expecting ',' delimiter: line 241 column 1 (char 7255)
+
+Batch 69: pages [327, 328, 329, 330]
+  Page 327: already done (82 lines) — skipping.
+  Page 328: already done (89 lines) — skipping.
+  Page 329: already done (78 lines) — skipping.
+  Page 330: already done (75 lines) — skipping.
+
+Batch 70: pages [331, 332, 333, 334]
+  Page 331: already done (81 lines) — skipping.
+  Page 332: already done (89 lines) — skipping.
+  Page 333: already done (78 lines) — skipping.
+  Page 334: already done (76 lines) — skipping.
+
+Batch 71: pages [335, 336, 337, 338]
+  Page 335: already done (59 lines) — skipping.
+  Page 336: already done (46 lines) — skipping.
+  Page 337: already done (73 lines) — skipping.
+  Page 338: already done (70 lines) — skipping.
+
+Batch 72: pages [339, 340, 341, 342]
+  Page 339: already done (80 lines) — skipping.
+  Page 340: already done (90 lines) — skipping.
+  Page 341: already done (65 lines) — skipping.
+  Page 342: already done (67 lines) — skipping.
+
+Batch 73: pages [343, 344, 345, 346]
+  Page 343: already done (70 lines) — skipping.
+  Page 344: already done (79 lines) — skipping.
+  Page 345: already done (77 lines) — skipping.
+  Page 346: already done (76 lines) — skipping.
+
+Batch 74: pages [347, 348, 349, 350]
+  Page 347: already done (70 lines) — skipping.
+  Page 348: already done (82 lines) — skipping.
+  Page 349: already done (82 lines) — skipping.
+  Page 350: already done (79 lines) — skipping.
+
+Batch 75: pages [351, 352, 353, 354]
+  Page 351: already done (76 lines) — skipping.
+  Page 352: already done (71 lines) — skipping.
+  Page 353: already done (70 lines) — skipping.
+  Page 354: already done (71 lines) — skipping.
+
+Batch 76: pages [355, 356, 357, 358]
+  Page 355: already done (23 lines) — skipping.
+  Page 356: already done (70 lines) — skipping.
+  Page 357: already done (70 lines) — skipping.
+  Page 358: already done (74 lines) — skipping.
+
+Batch 77: pages [359, 360, 361, 362]
+  Page 359: already done (70 lines) — skipping.
+  Page 360: already done (67 lines) — skipping.
+  Page 361: already done (74 lines) — skipping.
+  Page 362: already done (71 lines) — skipping.
+
+Batch 78: pages [363, 364, 365, 366]
+  Page 363: already done (69 lines) — skipping.
+  Page 364: already done (85 lines) — skipping.
+  Page 365: already done (73 lines) — skipping.
+  Page 366: already done (74 lines) — skipping.
+
+Batch 79: pages [367, 368, 369, 370]
+  Page 367: already done (72 lines) — skipping.
+  Page 368: already done (77 lines) — skipping.
+  Page 369: already done (75 lines) — skipping.
+  Page 370: already done (79 lines) — skipping.
+
+Batch 80: pages [371, 372, 373, 374]
+  Page 371: already done (87 lines) — skipping.
+  Page 372: already done (70 lines) — skipping.
+  Page 373: already done (84 lines) — skipping.
+  Page 374: already done (86 lines) — skipping.
+
+Batch 81: pages [375, 376, 377, 378]
+  Page 375: already done (78 lines) — skipping.
+  Page 376: already done (91 lines) — skipping.
+  Page 377: already done (78 lines) — skipping.
+  Page 378: already done (63 lines) — skipping.
+
+Batch 82: pages [379, 380, 381, 382]
+  Page 379: already done (62 lines) — skipping.
+  Page 380: already done (74 lines) — skipping.
+  Page 381: already done (71 lines) — skipping.
+  Page 382: already done (73 lines) — skipping.
+
+Batch 83: pages [383, 384, 385, 386]
+  Page 383: already done (85 lines) — skipping.
+  Page 384: already done (74 lines) — skipping.
+  Page 385: already done (71 lines) — skipping.
+  Page 386: already done (62 lines) — skipping.
+
+Batch 84: pages [387, 388, 389, 390]
+  Page 387: already done (72 lines) — skipping.
+  Page 388: already done (65 lines) — skipping.
+  Page 389: already done (54 lines) — skipping.
+  Page 390: already done (72 lines) — skipping.
+
+Batch 85: pages [391, 392, 393, 394]
+  Page 391: already done (77 lines) — skipping.
+  Page 392: already done (78 lines) — skipping.
+  Page 393: already done (53 lines) — skipping.
+  Page 394: already done (43 lines) — skipping.
+
+Batch 86: pages [395, 396, 397, 398]
+  Page 395: already done (11 lines) — skipping.
+  Page 396: already done (5 lines) — skipping.
+  Page 397: already done (81 lines) — skipping.
+  Page 398: already done (79 lines) — skipping.
+
+Batch 87: pages [399, 400, 401, 402]
+  Page 399: already done (75 lines) — skipping.
+  Page 400: already done (75 lines) — skipping.
+  Page 401: already done (74 lines) — skipping.
+  Page 402: already done (68 lines) — skipping.
+
+Batch 88: pages [403, 404, 405, 406]
+  Page 403: already done (76 lines) — skipping.
+  Page 404: already done (77 lines) — skipping.
+  Page 405: already done (66 lines) — skipping.
+  Page 406: already done (55 lines) — skipping.
+
+Batch 89: pages [407, 408, 409, 410]
+  Page 407: already done (61 lines) — skipping.
+  Page 408: already done (74 lines) — skipping.
+  Page 409: already done (62 lines) — skipping.
+  Page 410: already done (82 lines) — skipping.
+
+Batch 90: pages [411, 412, 413, 414]
+  Fetching pages [411, 412, 413, 414] in one batch call...
+  Page 411: 84 lines, page_complete=True
+  Page 412: 83 lines, page_complete=True
+  Page 413: 83 lines, page_complete=True
+  Page 414: 70 lines, page_complete=True
+
+Batch 91: pages [415, 416, 417, 418]
+  Fetching pages [415, 416, 417, 418] in one batch call...
+  Page 415: 0 lines, page_complete=True
+  Page 416: 0 lines, page_complete=True
+  Page 417: 78 lines, page_complete=True
+  Page 418: 76 lines, page_complete=True
+
+Batch 92: pages [419, 420, 421, 422]
+  Fetching pages [419, 420, 421, 422] in one batch call...
+  Page 419: 70 lines, page_complete=True
+  Page 420: 72 lines, page_complete=True
+  Page 421: 68 lines, page_complete=True
+  Page 422: 72 lines, page_complete=True
+
+Batch 93: pages [423, 424, 425, 426]
+  Fetching pages [423, 424, 425, 426] in one batch call...
+  Page 423: 0 lines, page_complete=True
+  Page 424: 0 lines, page_complete=True
+  Page 425: 69 lines, page_complete=True
+  Page 426: 80 lines, page_complete=True
+
+Batch 94: pages [427, 428, 429, 430]
+  Fetching pages [427, 428, 429, 430] in one batch call...
+  Page 427: 85 lines, page_complete=True
+  Page 428: 77 lines, page_complete=True
+  Page 429: 79 lines, page_complete=True
+  Page 430: 81 lines, page_complete=True
+
+Batch 95: pages [431, 432, 433, 434]
+  Fetching pages [431, 432, 433, 434] in one batch call...
+  Page 431: 80 lines, page_complete=True
+  Page 432: 81 lines, page_complete=True
+  Page 433: 92 lines, page_complete=True
+  Page 434: 80 lines, page_complete=True
+
+Batch 96: pages [435, 436, 437, 438]
+  Fetching pages [435, 436, 437, 438] in one batch call...
+  Page 435: 76 lines, page_complete=True
+  Page 436: 81 lines, page_complete=True
+  Page 437: 73 lines, page_complete=True
+  Page 438: 68 lines, page_complete=True
+
+Batch 97: pages [439, 440, 441, 442]
+  Fetching pages [439, 440, 441, 442] in one batch call...
+  Page 439: 67 lines, page_complete=True
+  Page 440: 90 lines, page_complete=True
+  Page 441: 74 lines, page_complete=True
+  Page 442: 53 lines, page_complete=True
+
+Batch 98: pages [443, 444, 445]
+  Fetching pages [443, 444, 445] in one batch call...
+  Page 443: 84 lines, page_complete=True
+  Page 444: 54 lines, page_complete=True
+  Page 445: 43 lines, page_complete=True
+
+=== Summary ===
+  Pages processed : 35
+  Pages skipped   : 352
+  Errors          : 4
+  Total lines     : 26381
+
+Failed pages:
+  Page 323: Expecting ',' delimiter: line 241 column 1 (char 7255)
+  Page 324: Expecting ',' delimiter: line 241 column 1 (char 7255)
+  Page 325: Expecting ',' delimiter: line 241 column 1 (char 7255)
+  Page 326: Expecting ',' delimiter: line 241 column 1 (char 7255)
+
+>>> STAGE 2/3: Merge (02_merge_pages.py)
+>>> Mon Aug 17 15:11:26 CDT 2026
+Merging 387 page files from data/1900_01/pages ...
+
+=== Merge complete ===
+  Pages merged  : 375
+  Empty pages   : [65, 66, 119, 120, 305, 306, 315, 316, 415, 416, 423, 424]
+  Total entries : 26381
+  Output        : data/1900_01/1900_01_entries.json
+
+>>> STAGE 3/3: Parse (03_parse_entries.py)
+>>> Mon Aug 17 15:33:42 CDT 2026
+Loading entries from 1900_01_entries.json ...
+  26381 entries to parse.
+  Checkpoint discarded (--restart).
+
+Running 1056 batches with 8 concurrent workers ...
+
+  10/1056 batches  (6 entries/s, ~67.8 min left)
+  20/1056 batches  (7 entries/s, ~65.3 min left)
+  30/1056 batches  (7 entries/s, ~65.3 min left)
+  40/1056 batches  (7 entries/s, ~63.3 min left)
+  50/1056 batches  (7 entries/s, ~59.4 min left)
+  60/1056 batches  (7 entries/s, ~57.5 min left)
+  70/1056 batches  (7 entries/s, ~54.9 min left)
+  80/1056 batches  (7 entries/s, ~55.4 min left)
+  90/1056 batches  (7 entries/s, ~54.2 min left)
+  100/1056 batches  (7 entries/s, ~53.8 min left)
+  110/1056 batches  (7 entries/s, ~53.1 min left)
+  120/1056 batches  (7 entries/s, ~52.5 min left)
+  130/1056 batches  (7 entries/s, ~52.0 min left)
+  140/1056 batches  (7 entries/s, ~51.8 min left)
+  150/1056 batches  (8 entries/s, ~50.1 min left)
+  160/1056 batches  (7 entries/s, ~49.9 min left)
+  170/1056 batches  (7 entries/s, ~49.8 min left)
+  180/1056 batches  (7 entries/s, ~50.1 min left)
+  190/1056 batches  (7 entries/s, ~49.3 min left)
+  200/1056 batches  (7 entries/s, ~48.7 min left)
+  210/1056 batches  (7 entries/s, ~48.3 min left)
+  220/1056 batches  (7 entries/s, ~47.6 min left)
+  230/1056 batches  (7 entries/s, ~47.8 min left)
+  240/1056 batches  (7 entries/s, ~46.7 min left)
+  250/1056 batches  (7 entries/s, ~46.2 min left)
+  260/1056 batches  (7 entries/s, ~45.6 min left)
+  270/1056 batches  (7 entries/s, ~45.0 min left)
+  280/1056 batches  (7 entries/s, ~44.4 min left)
+  290/1056 batches  (7 entries/s, ~43.7 min left)
+  300/1056 batches  (7 entries/s, ~42.9 min left)
+  310/1056 batches  (7 entries/s, ~41.9 min left)
+  320/1056 batches  (7 entries/s, ~41.2 min left)
+  330/1056 batches  (7 entries/s, ~40.4 min left)
+  340/1056 batches  (7 entries/s, ~40.2 min left)
+  350/1056 batches  (7 entries/s, ~39.7 min left)
+  360/1056 batches  (7 entries/s, ~39.1 min left)
+  370/1056 batches  (7 entries/s, ~38.3 min left)
+  380/1056 batches  (7 entries/s, ~37.8 min left)
+  390/1056 batches  (8 entries/s, ~36.9 min left)
+  400/1056 batches  (8 entries/s, ~36.1 min left)
+  410/1056 batches  (8 entries/s, ~35.6 min left)
+  420/1056 batches  (8 entries/s, ~35.0 min left)
+  430/1056 batches  (8 entries/s, ~34.5 min left)
+  440/1056 batches  (8 entries/s, ~34.1 min left)
+  450/1056 batches  (8 entries/s, ~33.5 min left)
+  460/1056 batches  (8 entries/s, ~32.9 min left)
+  470/1056 batches  (8 entries/s, ~32.4 min left)
+  480/1056 batches  (8 entries/s, ~31.8 min left)
+  490/1056 batches  (8 entries/s, ~31.2 min left)
+  500/1056 batches  (8 entries/s, ~30.5 min left)
+  510/1056 batches  (8 entries/s, ~30.1 min left)
+  520/1056 batches  (8 entries/s, ~29.5 min left)
+  530/1056 batches  (8 entries/s, ~29.1 min left)
+  540/1056 batches  (8 entries/s, ~28.5 min left)
+  550/1056 batches  (8 entries/s, ~27.8 min left)
+  560/1056 batches  (8 entries/s, ~27.3 min left)
+  570/1056 batches  (8 entries/s, ~26.7 min left)
+  580/1056 batches  (8 entries/s, ~26.2 min left)
+  590/1056 batches  (8 entries/s, ~25.7 min left)
+  600/1056 batches  (8 entries/s, ~25.1 min left)
+  610/1056 batches  (8 entries/s, ~24.7 min left)
+  620/1056 batches  (8 entries/s, ~24.1 min left)
+  630/1056 batches  (8 entries/s, ~23.6 min left)
+  640/1056 batches  (7 entries/s, ~23.1 min left)
+  650/1056 batches  (8 entries/s, ~22.5 min left)
+  660/1056 batches  (7 entries/s, ~22.1 min left)
+  670/1056 batches  (7 entries/s, ~21.4 min left)
+  680/1056 batches  (7 entries/s, ~21.0 min left)
+  690/1056 batches  (7 entries/s, ~20.5 min left)
+  700/1056 batches  (7 entries/s, ~20.0 min left)
+  710/1056 batches  (7 entries/s, ~19.4 min left)
+  720/1056 batches  (7 entries/s, ~18.9 min left)
+  730/1056 batches  (7 entries/s, ~18.3 min left)
+  740/1056 batches  (7 entries/s, ~17.7 min left)
+  750/1056 batches  (7 entries/s, ~17.1 min left)
+  760/1056 batches  (7 entries/s, ~16.5 min left)
+  770/1056 batches  (7 entries/s, ~15.9 min left)
+  780/1056 batches  (8 entries/s, ~15.3 min left)
+  790/1056 batches  (8 entries/s, ~14.8 min left)
+  800/1056 batches  (8 entries/s, ~14.2 min left)
+  810/1056 batches  (7 entries/s, ~13.7 min left)
+  820/1056 batches  (7 entries/s, ~13.1 min left)
+  830/1056 batches  (7 entries/s, ~12.6 min left)
+  840/1056 batches  (7 entries/s, ~12.1 min left)
+  850/1056 batches  (7 entries/s, ~11.5 min left)
+  860/1056 batches  (7 entries/s, ~11.0 min left)
+  870/1056 batches  (7 entries/s, ~10.5 min left)
+  880/1056 batches  (7 entries/s, ~9.9 min left)
+  890/1056 batches  (7 entries/s, ~9.3 min left)
+  900/1056 batches  (7 entries/s, ~8.8 min left)
+  910/1056 batches  (7 entries/s, ~8.2 min left)
+  920/1056 batches  (7 entries/s, ~7.7 min left)
+  930/1056 batches  (7 entries/s, ~7.1 min left)
+  940/1056 batches  (7 entries/s, ~6.6 min left)
+  950/1056 batches  (7 entries/s, ~6.0 min left)
+  960/1056 batches  (7 entries/s, ~5.4 min left)
+  970/1056 batches  (7 entries/s, ~4.8 min left)
+  980/1056 batches  (7 entries/s, ~4.3 min left)
+  990/1056 batches  (7 entries/s, ~3.7 min left)
+  1000/1056 batches  (7 entries/s, ~3.2 min left)
+  1010/1056 batches  (7 entries/s, ~2.6 min left)
+  1020/1056 batches  (7 entries/s, ~2.0 min left)
+  1030/1056 batches  (7 entries/s, ~1.5 min left)
+  1040/1056 batches  (7 entries/s, ~0.9 min left)
+  1050/1056 batches  (7 entries/s, ~0.3 min left)
+  1056/1056 batches  (7 entries/s, ~0.0 min left)
+
+Saved 26379 parsed entries -> data/1900_01/1900_01_parsed.json
+Recorded 2 unparseable lines -> data/1900_01/1900_01_parse_failures.json
+
+=== Parse complete ===
+  Parsed     : 26379
+  Unparseable: 2
+    resident           25339
+    business           542
+    partnership        341
+    cross_reference    105
+    other              52
+
+==================================================
+ALL STAGES COMPLETE
+Finished: Mon Aug 17 16:34:03 CDT 2026
+==================================================
+
+Output files:
+-rw-r--r--@ 1 youngraekim  staff   2.3M Aug 17 15:33 data/1900_01/1900_01_entries.json
+-rw-r--r--@ 1 youngraekim  staff   9.4M Aug 17 16:34 data/1900_01/1900_01_parsed.json
+-rw-r--r--@ 1 youngraekim  staff   365B Aug 17 16:34 data/1900_01/1900_01_parse_failures.json
+Transcribed pages:      387

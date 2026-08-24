@@ -1,0 +1,614 @@
+[
+    {
+    "section_name": "Addenda",
+    "page_reference": "xv-xvi",
+    "pagination_type": "roman_block",
+    "canonical_type": "container",
+    "tier": null,
+    "needs_subscan": true,
+    "notes": "Block of additional information, likely corrections or late entries."
+    },
+    {
+    "section_name": "Ancient Order of Hibernians",
+    "page_reference": "403",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Ancient Order United Workmen",
+    "page_reference": "404",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Banks and Bankers",
+    "page_reference": "404",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Business category listing."
+    },
+    {
+    "section_name": "Bicycle Clubs",
+    "page_reference": "404",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Recreational club listing."
+    },
+    {
+    "section_name": "Building, Loan, Abs. and Real Estate Ass'ns",
+    "page_reference": "404-405",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Business category listing."
+    },
+    {
+    "section_name": "Business Directory of Houston",
+    "page_reference": "423-466",
+    "pagination_type": "arabic",
+    "canonical_type": "directory_entries",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Categorized business listings."
+    },
+    {
+    "section_name": "Catholic Knights of America",
+    "page_reference": "405",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Cemeteries",
+    "page_reference": "St. Dy x",
+    "pagination_type": "roman_relative",
+    "canonical_type": "cemeteries_and_street_railroads",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Located within the Street Directory block."
+    },
+    {
+    "section_name": "Chosen Friends",
+    "page_reference": "405-406",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Church Directory",
+    "page_reference": "396-399",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Listings of churches."
+    },
+    {
+    "section_name": "Church Organizations and Societies",
+    "page_reference": "399-402",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Listings of church-related organizations."
+    },
+    {
+    "section_name": "Clubs",
+    "page_reference": "394",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "General listing of clubs."
+    },
+    {
+    "section_name": "Commercial Travelers",
+    "page_reference": "406",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Professional organization listing."
+    },
+    {
+    "section_name": "Confederate Veterans",
+    "page_reference": "406",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Veterans organization listing."
+    },
+    {
+    "section_name": "County Government",
+    "page_reference": "394",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "County Officials of Texas",
+    "page_reference": "375-379",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Court of Civil Appeals",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Court of Criminal Appeals",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Courts",
+    "page_reference": "394",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "District Courts of Texas",
+    "page_reference": "380-385",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Educational",
+    "page_reference": "402-403",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Educational institutions listings."
+    },
+    {
+    "section_name": "Eleemosynary Institutions",
+    "page_reference": "407",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Charitable institutions listings."
+    },
+    {
+    "section_name": "Fifth Supreme Judicial District Court",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Fire Alarm Boxes",
+    "page_reference": "395-396",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Public safety information."
+    },
+    {
+    "section_name": "Fire Department",
+    "page_reference": "395",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Public safety information."
+    },
+    {
+    "section_name": "Fire Limits",
+    "page_reference": "St. Dy i",
+    "pagination_type": "roman_relative",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "City regulations, located within the Street Directory block."
+    },
+    {
+    "section_name": "Fourth Supreme Judicial District Court",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "General Directory of Names",
+    "page_reference": "9-369",
+    "pagination_type": "arabic",
+    "canonical_type": "directory_entries",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Main alphabetical listings of residents and businesses."
+    },
+    {
+    "section_name": "Grand Army of the Republic",
+    "page_reference": "407",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Veterans organization listing."
+    },
+    {
+    "section_name": "Gun and Shooting Clubs",
+    "page_reference": "407",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Recreational club listing."
+    },
+    {
+    "section_name": "Halls, Parks and Public Buildings",
+    "page_reference": "St. Dy x",
+    "pagination_type": "roman_relative",
+    "canonical_type": "halls_parks_buildings",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Located within the Street Directory block."
+    },
+    {
+    "section_name": "Hebrew Organizations",
+    "page_reference": "407-408",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Religious and social organizations."
+    },
+    {
+    "section_name": "Houston Postoffice",
+    "page_reference": "385",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Public services information."
+    },
+    {
+    "section_name": "Houston Street Directory",
+    "page_reference": "i to xiv",
+    "pagination_type": "roman_block",
+    "canonical_type": "container",
+    "tier": null,
+    "needs_subscan": true,
+    "notes": "Contains multiple sub-sections with Roman numeral pages."
+    },
+    {
+    "section_name": "Incorporated Companies",
+    "page_reference": "408-410",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Business category listing."
+    },
+    {
+    "section_name": "Index to Advertisements",
+    "page_reference": "7-8",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Index for advertisements."
+    },
+    {
+    "section_name": "Knights of Honor",
+    "page_reference": "410-411",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Knights of Pythias",
+    "page_reference": "411-413",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Labor Organizations",
+    "page_reference": "413",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Professional/social organization listing."
+    },
+    {
+    "section_name": "Maccabees",
+    "page_reference": "411",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Masonic",
+    "page_reference": "413-414",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Medical Associations",
+    "page_reference": "414",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Professional organization listing."
+    },
+    {
+    "section_name": "Military",
+    "page_reference": "414",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Military organizations listing."
+    },
+    {
+    "section_name": "Miscellaneous Organizations and Societies",
+    "page_reference": "414-416",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "General listing of various organizations."
+    },
+    {
+    "section_name": "Musical Organizations",
+    "page_reference": "416",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Recreational/social organization listing."
+    },
+    {
+    "section_name": "Newspapers",
+    "page_reference": "416-417",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Business category listing."
+    },
+    {
+    "section_name": "Odd Fellows",
+    "page_reference": "417",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Postoffices in Texas",
+    "page_reference": "385-393",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Public services information."
+    },
+    {
+    "section_name": "Prefatory",
+    "page_reference": "2-6",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Introductory and explanatory text."
+    },
+    {
+    "section_name": "Railroad Guide from Houston",
+    "page_reference": "418-422",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Transportation guide."
+    },
+    {
+    "section_name": "Red Men",
+    "page_reference": "417-418",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "Second Supreme Judicial District Court",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Sons of Herrmann",
+    "page_reference": "418",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    },
+    {
+    "section_name": "State Government",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "State Senators and Representatives",
+    "page_reference": "372",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Street Railroads",
+    "page_reference": "xi-xiv",
+    "pagination_type": "roman_relative",
+    "canonical_type": "cemeteries_and_street_railroads",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Located within the Street Directory block."
+    },
+    {
+    "section_name": "Supreme Court",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Temperance Organizations",
+    "page_reference": "418",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Social/advocacy organization listing."
+    },
+    {
+    "section_name": "Texas State Courts",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Third Supreme Judicial District Court",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Title Page",
+    "page_reference": "1",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Document metadata."
+    },
+    {
+    "section_name": "Twenty-Sixth Legislature",
+    "page_reference": "372",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "United Brotherhood",
+    "page_reference": "418",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Labor organization listing."
+    },
+    {
+    "section_name": "U. S. Congressmen",
+    "page_reference": "371-372",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "U. S. Senators and Representatives",
+    "page_reference": "371",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Government information."
+    },
+    {
+    "section_name": "Ward Boundaries",
+    "page_reference": "St. Dy i",
+    "pagination_type": "roman_relative",
+    "canonical_type": "ward_boundaries_and_streets",
+    "tier": 2,
+    "needs_subscan": false,
+    "notes": "First page of the Street Directory block, high research value."
+    },
+    {
+    "section_name": "Woodmen of the World",
+    "page_reference": "418",
+    "pagination_type": "arabic",
+    "canonical_type": "other",
+    "tier": 3,
+    "needs_subscan": false,
+    "notes": "Fraternal organization."
+    }
+]
