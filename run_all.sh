@@ -17,9 +17,23 @@ mkdir -p logs
 STAMP=$(date +%Y%m%d_%H%M%S)
 LOG="logs/run_${YEAR_VOL}_${STAMP}.log"
 
+# The Python stages load .env themselves via python-dotenv, but this guard runs
+# first, so load it here too. python-dotenv does not override variables already
+# in the environment, so preserve an exported key across the source to match.
+_exported_key="${GEMINI_API_KEY:-}"
+if [ -f .env ]; then
+    set -a
+    # shellcheck disable=SC1091
+    . ./.env
+    set +a
+fi
+if [ -n "$_exported_key" ]; then
+    export GEMINI_API_KEY="$_exported_key"
+fi
+
 # Fail early rather than 30 seconds into an overnight run
 if [ -z "${GEMINI_API_KEY:-}" ]; then
-    echo "ERROR: GEMINI_API_KEY is not set. Export it before running."
+    echo "ERROR: GEMINI_API_KEY is not set. Put it in .env or export it before running."
     exit 1
 fi
 

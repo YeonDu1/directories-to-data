@@ -1,0 +1,25 @@
+---
+description: Project goal, how to run the pipeline, and repo layout
+alwaysApply: true
+---
+
+# Directories to data
+
+Converts scanned Houston city directories (first edition: 1900-1901) into structured data with Gemini. Goal is **printed text first, then parse**. Do not add bounding boxes or layout classification.
+
+Run scripts from the **repo root**. Paths are relative to cwd. Keyed by `year_vol` (e.g. `1900_01`): that names `config/<year_vol>/` and `data/<year_vol>/`. A new edition is new config + CLI key — no code changes.
+
+```bash
+# Full run (stages 1-3)
+./run_all.sh 1900_01 data/1900_01/1900-1901.pdf
+
+python scripts/01_ocr_entries.py 1900_01 data/1900_01/1900-1901.pdf --pages 50-51 --batch-size 2
+python scripts/02_merge_pages.py 1900_01
+python scripts/03_parse_entries.py 1900_01 --workers 8
+```
+
+- Stage 1: `--pages` (1-indexed, overrides `page_layout.json`), `--batch-size`, `--dry-run`
+- Stage 3: `--limit`, `--restart`, `--workers`, `--batch-size`
+- Deps (unpinned): `pip install pymupdf pydantic google-genai langsmith python-dotenv`
+- API key: `GEMINI_API_KEY` (export overrides repo-root `.env`). `run_all.sh` sources `.env` the same way.
+- Source PDFs and `logs/` are gitignored; JSON in `data/` and `config/` is committed.

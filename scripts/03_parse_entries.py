@@ -26,7 +26,12 @@ Usage:
     python scripts/03_parse_entries.py 1900_01 --workers 12
     python scripts/03_parse_entries.py 1900_01 --limit 200   # spot-check
 
-Set your API key before running:
+Set your API key before running, either in the repo-root .env file:
+
+    GEMINI_API_KEY=your-key-here
+
+or as a shell variable, which takes precedence over .env:
+
     export GEMINI_API_KEY="your-key-here"
 """
 
@@ -42,10 +47,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from google import genai
 from google.genai import types
 from langsmith import traceable      # pip install langsmith
+from dotenv import load_dotenv    # pip install python-dotenv
 
 # ---------------------------------------------------------------------------
 # Client setup
 # ---------------------------------------------------------------------------
+
+# Reads GEMINI_API_KEY from the repo-root .env if it is not already in the
+# environment. An exported shell variable still wins over the file.
+load_dotenv()
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 MODEL  = "gemini-3.5-flash"

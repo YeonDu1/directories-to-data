@@ -23,7 +23,12 @@ Usage:
     # Uses entries_source range from page_layout.json if --pages omitted
     python scripts/01_ocr_entries.py 1900_01 data/1900_01/1900-1901.pdf
 
-Set your API key before running:
+Set your API key before running, either in the repo-root .env file:
+
+    GEMINI_API_KEY=your-key-here
+
+or as a shell variable, which takes precedence over .env:
+
     export GEMINI_API_KEY="your-key-here"
 """
 
@@ -38,6 +43,7 @@ from pydantic import BaseModel
 from google import genai
 from google.genai import types
 from langsmith import traceable      # pip install langsmith
+from dotenv import load_dotenv    # pip install python-dotenv
 
 # ---------------------------------------------------------------------------
 # Output schema
@@ -61,6 +67,10 @@ class PageTranscription(BaseModel):
 # ---------------------------------------------------------------------------
 # Client setup
 # ---------------------------------------------------------------------------
+
+# Reads GEMINI_API_KEY from the repo-root .env if it is not already in the
+# environment. An exported shell variable still wins over the file.
+load_dotenv()
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 MODEL = "gemini-3.5-flash"   # verify exact string in AI Studio's model dropdown
