@@ -1,0 +1,10 @@
+*.pdf
+logs/
+**/_parse_checkpoint.json
+**/*.tmp
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+env/
+venv/

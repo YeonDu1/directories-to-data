@@ -1,0 +1,12 @@
+[
+  {
+    "page": 386,
+    "line": "Strickland Samuel M., bkpr H. B. Williamson, r. 1507 Dallas ave.",
+    "error": "Expecting ',' delimiter: line 14 column 4 (char 302)"
+  },
+  {
+    "page": 397,
+    "line": "Thom Paul, tinner H. L. Hubele, r. es Houston ave, 6 blks n of White Oak bayou.",
+    "error": "Expecting ',' delimiter: line 14 column 4 (char 317)"
+  }
+]
