@@ -329,10 +329,13 @@ def main():
     atomic_write(out, all_parsed)
     print(f"\nSaved {len(all_parsed)} parsed entries -> {out}")
 
+    fpath = Path("data") / args.year_vol / f"{args.year_vol}_parse_failures.json"
     if all_failed:
-        fpath = Path("data") / args.year_vol / f"{args.year_vol}_parse_failures.json"
         atomic_write(fpath, all_failed)
         print(f"Recorded {len(all_failed)} unparseable lines -> {fpath}")
+    elif fpath.exists():
+        fpath.unlink()
+        print(f"No unparseable lines this run — removed stale {fpath}")
 
     if len(done) == len(batches):
         atomic_write(ck_path, done)   # keep it; harmless and allows re-runs
