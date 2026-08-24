@@ -11,6 +11,11 @@ Batches multiple pages per API call to reduce total calls. Each page in
 the batch is saved as its own output file so already-completed pages are
 skipped automatically on re-runs.
 
+If a batch response comes back malformed (bad JSON, wrong object count, a
+page missing from the response), the batch is bisected and each half
+retried independently, down to individual pages if needed, rather than
+dropping every page in that batch.
+
 Usage:
     # First run, small batch to validate before scaling up
     python scripts/01_ocr_entries.py 1900_01 data/1900_01/1900-1901.pdf \
@@ -74,6 +79,13 @@ load_dotenv()
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 MODEL = "gemini-3.5-flash"   # verify exact string in AI Studio's model dropdown
+
+# Set explicitly, the same fix used in 03_parse_entries.py: left unset, the
+# SDK's low default combined with thinking tokens drawing from the same
+# budget truncates responses well before the model's real output ceiling.
+# Sized generously here since a batch response holds full verbatim text for
+# several pages, not just compact structured fields like stage 3's.
+MAX_OUTPUT_TOKENS = 65536
 
 # ---------------------------------------------------------------------------
 # PDF page extraction
@@ -208,6 +220,7 @@ def extract_batch(pdf_bytes: bytes, abbreviations: list[dict], page_count: int) 
             media_resolution="media_resolution_high",  # verify this string
                               # against your installed SDK version, this is a
                               # newer parameter and naming may have shifted
+            max_output_tokens=MAX_OUTPUT_TOKENS,
         ),
     )
 
@@ -220,12 +233,9 @@ def extract_batch(pdf_bytes: bytes, abbreviations: list[dict], page_count: int) 
     return pages
 
 
-def validate_batch(pages: list[dict], expected_count: int) -> list[str]:
+def page_warnings(pages) -> list[str]:
+    """Non-fatal issues on successfully transcribed pages (missing fields, page_complete=false)."""
     warnings = []
-    if len(pages) != expected_count:
-        warnings.append(
-            f"  Expected {expected_count} page objects in response, got {len(pages)}."
-        )
     for p in pages:
         missing = {"page_position", "lines", "page_complete"} - set(p.keys())
         if missing:
@@ -236,6 +246,49 @@ def validate_batch(pages: list[dict], expected_count: int) -> list[str]:
                 f"this page needs a follow-up call on its own."
             )
     return warnings
+
+
+def transcribe_pages(
+    pdf_path: str, page_numbers: list[int], abbreviations: list[dict]
+) -> tuple[dict[int, dict], list[dict]]:
+    """
+    Transcribe a set of pages, splitting and retrying on failure.
+
+    Ported from parse_lines() in 03_parse_entries.py: a malformed response
+    (bad JSON, wrong object count, or a page missing from the response)
+    used to drop every page in the batch. Instead, bisect the page list and
+    retry each half independently, narrowing down to the specific page(s)
+    actually causing the problem rather than losing the whole batch.
+
+    Returns (results, failed):
+      results: {page_number: page_object} for every page transcribed OK.
+      failed:  [{"page": N, "error": "..."}] for pages that still failed
+               even as a batch of one.
+    """
+    pdf_bytes = extract_pages_as_pdf_bytes(pdf_path, page_numbers)
+
+    try:
+        result_pages = extract_batch(pdf_bytes, abbreviations, len(page_numbers))
+        if len(result_pages) != len(page_numbers):
+            raise ValueError(f"count mismatch: sent {len(page_numbers)}, got {len(result_pages)}")
+
+        results = {}
+        for i, page_number in enumerate(page_numbers):
+            match = next((p for p in result_pages if p.get("page_position") == i + 1), None)
+            if match is None:
+                raise ValueError(f"page_position {i + 1} missing from response for page {page_number}")
+            results[page_number] = match
+        return results, []
+
+    except KeyboardInterrupt:
+        raise
+    except Exception as e:
+        if len(page_numbers) == 1:
+            return {}, [{"page": page_numbers[0], "error": str(e)[:200]}]
+        mid = len(page_numbers) // 2
+        r1, f1 = transcribe_pages(pdf_path, page_numbers[:mid], abbreviations)
+        r2, f2 = transcribe_pages(pdf_path, page_numbers[mid:], abbreviations)
+        return {**r1, **r2}, f1 + f2
 
 # ---------------------------------------------------------------------------
 # File I/O
@@ -323,21 +376,18 @@ def process_batch(
         return summaries
 
     print(f"  Fetching pages {pages_to_fetch} in one batch call...")
-    pdf_bytes = extract_pages_as_pdf_bytes(pdf_path, pages_to_fetch)
-    result_pages = extract_batch(pdf_bytes, abbreviations, len(pages_to_fetch))
+    results, failed = transcribe_pages(pdf_path, pages_to_fetch, abbreviations)
 
-    warnings = validate_batch(result_pages, len(pages_to_fetch))
+    warnings = page_warnings(results.values())
     if warnings:
         print(f"  Warnings:")
         for w in warnings:
             print(w)
 
-    for i, page_number in enumerate(pages_to_fetch):
-        match = next((p for p in result_pages if p.get("page_position") == i + 1), None)
+    for page_number in pages_to_fetch:
+        match = results.get(page_number)
         if match is None:
-            print(f"  Page {page_number}: ERROR — no matching page_position {i + 1} in response.")
-            summaries.append({"page": page_number, "error": "missing from response"})
-            continue
+            continue  # reported below via `failed`
 
         lines = match.get("lines", [])
         print(f"  Page {page_number}: {len(lines)} lines, page_complete={match.get('page_complete')}")
@@ -352,6 +402,10 @@ def process_batch(
             "page_complete": match.get("page_complete"),
             "skipped": False,
         })
+
+    for f in failed:
+        print(f"  Page {f['page']}: ERROR — {f['error']}")
+        summaries.append({"page": f["page"], "error": f["error"]})
 
     return summaries
 
