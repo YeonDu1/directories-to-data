@@ -117,6 +117,10 @@ key on the command line — no code changes.
   significant change.
 - Transcription is strictly verbatim: abbreviations, ditto marks, and `[?]` uncertainty
   markers are preserved as printed and never expanded. Advertisements are skipped.
+- Stage 1's prompt also skips running page headers (page number + guide letters, e.g.
+  `"288 [KEL] MORRISON & FOURMY'S [KEL]"`). Added for the 1892-93 edition, whose header
+  placement got captured as spurious entry lines on every page; 1900-01 never needed this
+  rule, so don't assume every edition will hit the same failure mode.
 - The `(c)` race marker and the `race_marker` field are intentionally retained as printed —
   they are historical source data preserved for research.
 - All three model calls run at `temperature=0`; stages 0 and 1 use `thinking_level="high"`,

@@ -1,0 +1,16 @@
+{
+    "edition": {
+      "city": "Houston",
+      "year_label": "1892-93",
+      "publisher": "Morrison & Fourmy"
+    },
+    "abbreviations": {
+      "file": "1892-1893.pdf",
+      "page": 100
+    },
+    "entries_source": {
+      "file": "1892-1893.pdf",
+      "page_start": 100,
+      "page_end": 547
+    }
+  }

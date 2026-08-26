@@ -1,0 +1,346 @@
+[
+  {
+    "abbreviation": "add",
+    "meaning": "addition"
+  },
+  {
+    "abbreviation": "advt",
+    "meaning": "advertisement"
+  },
+  {
+    "abbreviation": "agrl",
+    "meaning": "agricultural"
+  },
+  {
+    "abbreviation": "agt",
+    "meaning": "agent"
+  },
+  {
+    "abbreviation": "al",
+    "meaning": "alley"
+  },
+  {
+    "abbreviation": "appc.",
+    "meaning": "apprentice"
+  },
+  {
+    "abbreviation": "asst.",
+    "meaning": "assistant"
+  },
+  {
+    "abbreviation": "ave",
+    "meaning": "avenue"
+  },
+  {
+    "abbreviation": "bds",
+    "meaning": "boards"
+  },
+  {
+    "abbreviation": "bkpr",
+    "meaning": "bookkeeper"
+  },
+  {
+    "abbreviation": "bldg",
+    "meaning": "building"
+  },
+  {
+    "abbreviation": "blk",
+    "meaning": "black"
+  },
+  {
+    "abbreviation": "bt.",
+    "meaning": "between"
+  },
+  {
+    "abbreviation": "(c)",
+    "meaning": "colored"
+  },
+  {
+    "abbreviation": "carp",
+    "meaning": "carpenter"
+  },
+  {
+    "abbreviation": "clk",
+    "meaning": "clerk"
+  },
+  {
+    "abbreviation": "Co",
+    "meaning": "Company"
+  },
+  {
+    "abbreviation": "condr.",
+    "meaning": "conductor"
+  },
+  {
+    "abbreviation": "cor",
+    "meaning": "corner"
+  },
+  {
+    "abbreviation": "del",
+    "meaning": "delivery"
+  },
+  {
+    "abbreviation": "dept",
+    "meaning": "department"
+  },
+  {
+    "abbreviation": "depy",
+    "meaning": "deputy"
+  },
+  {
+    "abbreviation": "dist",
+    "meaning": "district"
+  },
+  {
+    "abbreviation": "div.",
+    "meaning": "division"
+  },
+  {
+    "abbreviation": "E.",
+    "meaning": "East"
+  },
+  {
+    "abbreviation": "engr",
+    "meaning": "engineer"
+  },
+  {
+    "abbreviation": "es",
+    "meaning": "east side"
+  },
+  {
+    "abbreviation": "exp",
+    "meaning": "express"
+  },
+  {
+    "abbreviation": "ext",
+    "meaning": "extension"
+  },
+  {
+    "abbreviation": "frt",
+    "meaning": "freight"
+  },
+  {
+    "abbreviation": "genl",
+    "meaning": "general"
+  },
+  {
+    "abbreviation": "Govt.",
+    "meaning": "Government"
+  },
+  {
+    "abbreviation": "G. C. & S. F. Ry.",
+    "meaning": "Gulf, Colorado & Santa Fe Ry."
+  },
+  {
+    "abbreviation": "h",
+    "meaning": "home"
+  },
+  {
+    "abbreviation": "hdqrs",
+    "meaning": "headquarters"
+  },
+  {
+    "abbreviation": "H. & T. C. R'y",
+    "meaning": "Houston & Texas Central Ry"
+  },
+  {
+    "abbreviation": "H. C. St. Ry.",
+    "meaning": "Houston City Street Ry."
+  },
+  {
+    "abbreviation": "H. D. N. Co",
+    "meaning": "Houston Direct Navigation Co."
+  },
+  {
+    "abbreviation": "H. E. & W. T. Ry",
+    "meaning": "Houston East & West Texas Ry."
+  },
+  {
+    "abbreviation": "I. & G. N. R. R.",
+    "meaning": "International & Great Northern R. R."
+  },
+  {
+    "abbreviation": "lab",
+    "meaning": "laborer"
+  },
+  {
+    "abbreviation": "mcht",
+    "meaning": "merchant"
+  },
+  {
+    "abbreviation": "mdse",
+    "meaning": "merchandise"
+  },
+  {
+    "abbreviation": "mfg",
+    "meaning": "manufacturing"
+  },
+  {
+    "abbreviation": "mfr",
+    "meaning": "manufacturer"
+  },
+  {
+    "abbreviation": "mfy",
+    "meaning": "manufactory"
+  },
+  {
+    "abbreviation": "mkr",
+    "meaning": "maker"
+  },
+  {
+    "abbreviation": "M. & P. Oil Co.",
+    "meaning": "Merchants' & Planters' Oil Co."
+  },
+  {
+    "abbreviation": "N.",
+    "meaning": "north"
+  },
+  {
+    "abbreviation": "ne",
+    "meaning": "northeast"
+  },
+  {
+    "abbreviation": "nr",
+    "meaning": "near"
+  },
+  {
+    "abbreviation": "ns.",
+    "meaning": "north side"
+  },
+  {
+    "abbreviation": "nw",
+    "meaning": "northwest"
+  },
+  {
+    "abbreviation": "opp",
+    "meaning": "opposite"
+  },
+  {
+    "abbreviation": "opr",
+    "meaning": "operator"
+  },
+  {
+    "abbreviation": "pass",
+    "meaning": "passenger"
+  },
+  {
+    "abbreviation": "P. O.",
+    "meaning": "Postoffice"
+  },
+  {
+    "abbreviation": "prest.",
+    "meaning": "president"
+  },
+  {
+    "abbreviation": "propr",
+    "meaning": "proprietor"
+  },
+  {
+    "abbreviation": "proprss",
+    "meaning": "proprietress"
+  },
+  {
+    "abbreviation": "r.",
+    "meaning": "residence"
+  },
+  {
+    "abbreviation": "Rev",
+    "meaning": "Reverend"
+  },
+  {
+    "abbreviation": "rms",
+    "meaning": "rooms"
+  },
+  {
+    "abbreviation": "rpr",
+    "meaning": "repairer"
+  },
+  {
+    "abbreviation": "R. R.",
+    "meaning": "Railroad"
+  },
+  {
+    "abbreviation": "Ry.",
+    "meaning": "Railway"
+  },
+  {
+    "abbreviation": "S.",
+    "meaning": "south"
+  },
+  {
+    "abbreviation": "S. A. & A. P. Ry.",
+    "meaning": "San Antonio & Aransas Pass Ry"
+  },
+  {
+    "abbreviation": "se.",
+    "meaning": "southeast"
+  },
+  {
+    "abbreviation": "secy",
+    "meaning": "secretary"
+  },
+  {
+    "abbreviation": "slsmn",
+    "meaning": "salesman"
+  },
+  {
+    "abbreviation": "So. Pac. Ry.",
+    "meaning": "Southern Pacific Ry."
+  },
+  {
+    "abbreviation": "ss",
+    "meaning": "south side"
+  },
+  {
+    "abbreviation": "st.",
+    "meaning": "street"
+  },
+  {
+    "abbreviation": "supt",
+    "meaning": "superintendent"
+  },
+  {
+    "abbreviation": "sw",
+    "meaning": "southwest"
+  },
+  {
+    "abbreviation": "tel",
+    "meaning": "telegraph"
+  },
+  {
+    "abbreviation": "tkt",
+    "meaning": "ticket"
+  },
+  {
+    "abbreviation": "trav",
+    "meaning": "traveling"
+  },
+  {
+    "abbreviation": "treasr",
+    "meaning": "treasurer"
+  },
+  {
+    "abbreviation": "T. W. Ry.",
+    "meaning": "Texas Western Ry."
+  },
+  {
+    "abbreviation": "W",
+    "meaning": "west"
+  },
+  {
+    "abbreviation": "(wid)",
+    "meaning": "widow"
+  },
+  {
+    "abbreviation": "wks",
+    "meaning": "works"
+  },
+  {
+    "abbreviation": "ws",
+    "meaning": "west side"
+  },
+  {
+    "abbreviation": "yd",
+    "meaning": "yard"
+  }
+]

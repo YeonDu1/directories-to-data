@@ -204,6 +204,12 @@ Rules:
   partway down, such as a boxed real estate, business, or product ad
   sitting between two directory entries. Skip all of these entirely,
   do not transcribe their text and do not count them as a line.
+- Do not include the running page header. This is the line at the very
+  top of the page repeating the publisher name or directory title
+  alongside the page number and guide letters in brackets, such as
+  "288 [KEL] MORRISON & FOURMY'S [KEL]" or "[KEL] HOUSTON CITY
+  DIRECTORY. [KEN] 289". It is page furniture, not a directory entry or
+  section header, skip it entirely and do not count it as a line.
 - Transcribe exactly as printed, character for character. Do not expand
   abbreviations, including ditto marks, transcribe them exactly as they
   appear.
