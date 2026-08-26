@@ -147,14 +147,30 @@ def draw_sample(year_vol: str, n: int, seed: int | None):
 # ---------------------------------------------------------------------------
 
 def read_manual(path: Path) -> list[str]:
-    """Read a hand-transcribed worksheet, dropping comments and blank lines."""
-    lines = []
-    for raw in path.read_text(encoding="utf-8").splitlines():
-        stripped = raw.strip()
-        if not stripped or stripped.startswith("#"):
-            continue
-        lines.append(stripped)
-    return lines
+    """
+    Read a hand-transcribed worksheet, dropping comments and blank lines.
+
+    Accepts either plain text (one entry per line) or a JSON array of
+    {"line": "..."} objects matching the pipeline's own page_XXXX.json
+    shape, since that format is also natural to hand-type entry by entry.
+    """
+    body = "\n".join(
+        raw for raw in path.read_text(encoding="utf-8").splitlines()
+        if raw.strip() and not raw.strip().startswith("#")
+    )
+
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        data = None
+
+    if isinstance(data, list):
+        return [
+            item["line"] if isinstance(item, dict) and "line" in item else str(item)
+            for item in data
+        ]
+
+    return [raw.strip() for raw in body.splitlines() if raw.strip()]
 
 
 def similarity(a: str, b: str) -> float:

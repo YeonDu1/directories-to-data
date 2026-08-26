@@ -8,248 +8,84 @@
 #
 # Lines starting with # are ignored by the scorer.
 
-[
-  {
-    "line": "Mays Hattie (c), r. 2715 Railroad."
-  },
-  {
-    "line": "Mays Henry (c), janitor, r. 312 Saulnier."
-  },
-  {
-    "line": "Mays Henry (c), wks Bayou City compress, h. 2612 Nance."
-  },
-  {
-    "line": "Mays Jane (c), r. 2612 Nance."
-  },
-  {
-    "line": "Mays John (c), wks Henke & Pillot, r. 1517 Robin."
-  },
-  {
-    "line": "Mays John (c), lab, h. Carrie Spencer."
-  },
-  {
-    "line": "Mays Julia (c), h. 1512 Saulnier."
-  },
-  {
-    "line": "Mays Lambie (c), h. 2718 Glass."
-  },
-  {
-    "line": "Mays Patrick, clk, bds 1317 Liberty ave."
-  },
-  {
-    "line": "Mays Paul (c), wks Standard compress."
-  },
-  {
-    "line": "Mays Reuben W. (c), lab, r. 1812 Caroline. Phone 1362."
-  },
-  {
-    "line": "Mays Robert (c), lab, h. Carrie Spencer."
-  },
-  {
-    "line": "Mays Thomas (c), wks Magnolia compress, h. 2612 Nance."
-  },
-  {
-    "line": "Mays Thomas J., shoemkr, r. 2109 Kane."
-  },
-  {
-    "line": "Mays Viola (c), cook, r. 2506 Washington."
-  },
-  {
-    "line": "Mays William (c), coachman J. H. B. House, r. 1814 Bramble."
-  },
-  {
-    "line": "Mays Willis (c), wks Standard compress, r. 3101 Kennedy."
-  },
-  {
-    "line": "☞ Mays—See also Maes, May."
-  },
-  {
-    "line": "Mayse George, physician, r. 803 Walker ave."
-  },
-  {
-    "line": "Mayse Gertrude Miss, pharmacist Abbott Cockrell & Co., h. 803 Walker ave."
-  },
-  {
-    "line": "Mayshack Elias (c), driver Houston Gas Light Co., r. ne cor Wilson ave, Tierwester."
-  },
-  {
-    "line": "Mayshack Louise (c), h. 2917 Rusk ave."
-  },
-  {
-    "line": "Mayshack Mary (c), h. 2917 Rusk ave."
-  },
-  {
-    "line": "Mayshack Nora (c), h. 2917 Rusk ave."
-  },
-  {
-    "line": "Mayshack Willis (c), yd boss Houston Gas Light Co., r. 1210 Velasco."
-  },
-  {
-    "line": "Mazier Peter, coach clnr H. & T. C., r. ns Baron bt Bayou, Grove."
-  },
-  {
-    "line": "McAfee Carl, waiter Turf restaurant, rms 917 1/2 Capitol ave."
-  },
-  {
-    "line": "McAfee James M., wks Tex. & La. Lumber Co., rms Salvation army wood yd."
-  },
-  {
-    "line": "McAllister Charles E., engr M. K. & T. Ry, r. 1007 Crockett."
-  },
-  {
-    "line": "McAllister Frederick H., switchman I. & G. N., r. 2512 Capitol ave."
-  },
-  {
-    "line": "McAllister Henry (c), lab, r. ne cor Meadow, Baer."
-  },
-  {
-    "line": "McAllister Rosa (c), r. 49 N. E. Hamilton."
-  },
-  {
-    "line": "McArdle Jack (c), lab, bds 2804 Glass."
-  },
-  {
-    "line": "McArthur John W., janitor Union Labor hall, 1215 1/2 Preston ave, rms same."
-  },
-  {
-    "line": "McArthur Vesta V., solicitor W. A. Warren, rms same."
-  },
-  {
-    "line": "McAshan Edgar P., r. 1512 State."
-  },
-  {
-    "line": "McASHAN JAMES EVERETT, cashier South Texas Nat'l bank, 213 Main; vice-prest Merchants' and Planters' Oil Co.; member board of liquidation city of Houston; resident vice-prest American Surety Co. of New York, r. 1602 Fannin. Phones 961."
-  },
-  {
-    "line": "McAshan John W., transfer clk I. & G. N., Bonner's point, r. 516 Chenevert."
-  },
-  {
-    "line": "McAshan M. E. Church (South), nw cor Buffalo, German, Rev. J. R. Warlick, pastor."
-  },
-  {
-    "line": "McAshan Samuel E., grain dealer, office 913 1/2 Franklin, phone 404, r. 1914 Travis."
-  },
-  {
-    "line": "McAshan Samuel M., with T. W. House, r. 1315 Main. Phone 427."
-  },
-  {
-    "line": "McAshan S. Maurice, jr., collector South Texas Nat'l bank, h. J. E. McAshan."
-  },
-  {
-    "line": "McAshan Thomas W., watchman H. & T. C. frt depot, h. 706 Girard."
-  },
-  {
-    "line": "McAughan Charles H., horse shoer James McAughan, h. same."
-  },
-  {
-    "line": "McAUGHAN JAMES, Blacksmith, wheelwright, horseshoer, shop 108 San Jacinto, phone 1083-6 rings, r. 3004 Odin ave. See advt."
-  },
-  {
-    "line": "McAuliff Louis, engr H. & T. C. R. R., r. 1817 Center."
-  },
-  {
-    "line": "McAuliffe Eugene, r. 2614 Glass."
-  },
-  {
-    "line": "McAuliffe Jennie (Mrs. Wm.), r. ss Barnes bt Wagner, Abbott."
-  },
-  {
-    "line": "McAustin James (c), peddler, r. es Houston ave, 1/4 mile n of White Oak bayou."
-  },
-  {
-    "line": "McBeth Delia (c), servt Ernest Necco."
-  },
-  {
-    "line": "McBride Anderson J. (McBride Bros.), rms 1720 Montgomery ave."
-  },
-  {
-    "line": "McBride Belle Miss, h. 504 James."
-  },
-  {
-    "line": "McBride Bros. (Anderson J. and Lewis) groceries; feed, 1720 Montgomery ave. Phone 1440-2 rings, C. phone 1257."
-  },
-  {
-    "line": "McBride Charles K., appc blksmith S. P. shops, h. George McBride."
-  },
-  {
-    "line": "McBride Clara (c), performer Solo theatre, rms same."
-  },
-  {
-    "line": "McBride Cornelius M. (c), porter Grand Central depot lunch stand, rms rear 2 Artesian."
-  },
-  {
-    "line": "McBride George, carp S. P. shops, r. 2018 Gentry cor Paschal."
-  },
-  {
-    "line": "McBride George W., appc carp S. P. shops, h. George McBride."
-  },
-  {
-    "line": "McBride Harry H., appc carp S. P. shops, h. George McBride."
-  },
-  {
-    "line": "McBride J. R., lumberman, bds Hotel Denver."
-  },
-  {
-    "line": "McBride Lewis (McBride Bros.), rms 1720 Montgomery ave."
-  },
-  {
-    "line": "McBride Stella (c), r. 2309 Prairie ave."
-  },
-  {
-    "line": "McBride Lulu (wid J. A.), h. 118 St. Emanuel."
-  },
-  {
-    "line": "McBride William C., train baggage master H. & T. C. R. R., r. nw cor Allston, 15th ave, Houston Hts."
-  },
-  {
-    "line": "McBride William S., rms 710 1/2 Preston ave."
-  },
-  {
-    "line": "McCabe Andrew, cooper, shop and r. cor House, Park."
-  },
-  {
-    "line": "McCabe Edward, r. 1409 Milam."
-  },
-  {
-    "line": "McCabe Edward (c), wks M. V. Wright, bds 2318 Decatur."
-  },
-  {
-    "line": "McCabe Lloyd (c), lab, bds 2318 Decatur."
-  },
-  {
-    "line": "McCabe Mary C. (c), wks Avenue House."
-  },
-  {
-    "line": "McCabe Patrick, janitor City hall, rms same."
-  },
-  {
-    "line": "McCain Fannie Miss, nurse, rms 620 Crawford."
-  },
-  {
-    "line": "McCall Bertha Miss, wks H. E. Fuller, r. same."
-  },
-  {
-    "line": "McCall D. B., agt Avery Plow Co., bds Hotel Bristol."
-  },
-  {
-    "line": "McCall Lena Miss, wks Mrs. Flora Flaxman, r. same."
-  },
-  {
-    "line": "McCall Norman W., cotton buyer, bds Hotel Denver."
-  },
-  {
-    "line": "McCall Rhea Miss, h. F. H. Symes."
-  },
-  {
-    "line": "McCall S. W., rms 514 Fannin."
-  },
-  {
-    "line": "McCallahan Richard, wks Weld & Neville compress, bds Mrs. Ellen Meder."
-  },
-  {
-    "line": "McCallister Sarah (c), r. 92 Gabel."
-  },
-  {
-    "line": "McCandlish Robert, carp A. M. Pesses, rms 512 Milam."
-  }
-]
+Mays Hattie (c), r. 2715 Railroad.
+Mays Henry (c), janitor, r. 312 Saulnier.
+Mays Henry (c), wks Bayou City compress, h. 2612 Nance.
+Mays Jane (c), r. 2612 Nance.
+Mays John (c), wks Henke & Pillot, r. 1517 Robin.
+Mays John (c), lab, h. Carrie Spencer.
+Mays Julia (c), h. 1512 Saulnier.
+Mays Lambie (c), h. 2718 Glass.
+Mays Patrick, clk, bds 1317 Liberty ave.
+Mays Paul (c), wks Standard compress.
+Mays Reuben W. (c), lab, r. 1812 Caroline. Phone 1362.
+Mays Robert (c), lab, h. Carrie Spencer.
+Mays Thomas (c), wks Magnolia compress, h. 2612 Nance.
+Mays Thomas J., shoemkr, r. 2109 Kane.
+Mays Viola (c), cook, r. 2506 Washington.
+Mays William (c), coachman J. H. B. House, r. 1814 Bramble.
+Mays Willis (c), wks Standard compress, r. 3101 Kennedy.
+Mays—See also Maes, May.
+Mayse George, physician, r. 803 Walker ave.
+Mayse Gertrude Miss, pharmacist Abbott Cockrell & Co., h. 803 Walker ave.
+Mayshack Elias (c), driver Houston Gas Light Co., r. ne cor Wilson ave, Tierwester.
+Mayshack Louise (c), h. 2917 Rusk ave.
+Mayshack Mary (c), h. 2917 Rusk ave.
+Mayshack Nora (c), h. 2917 Rusk ave.
+Mayshack Willis (c), yd boss Houston Gas Light Co., r. 1210 Velasco.
+Mazier Peter, coach clnr H. & T. C., r. ns Baron bt Bayou, Grove.
+McAfee Carl, waiter Turf restaurant, rms 917½ Capitol ave.
+McAfee James M., wks Tex. & La. Lumber Co., rms Salvation army wood yd.
+McAllister Charles E., engr M. K. & T. Ry, r. 1007 Crockett.
+McAllister Frederick H., switchman I. & G. N., r. 2512 Capitol ave.
+McAllister Henry (c), lab, r. ne cor Meadow, Baer.
+McAllister Rosa (c), r. 49 N. E. Hamilton.
+McArdle Jack (c), lab, bds 2804 Glass.
+McArthur John W., janitor Union Labor hall, 1215½ Preston ave, rms same.
+McArthur Vesta V., solicitor W. A. Warren, rms same.
+McAshan Edgar P., r. 1512 State.
+McASHAN JAMES EVERETT, cashier South Texas Nat'l bank, 213 Main; vice-prest Merchants' and Planters' Oil Co.; member board of liquidation city of Houston; resident vice-prest American Surety Co. of New York, r. 1602 Fannin. Phones 961.
+McAshan John W., transfer clk I. & G. N., Bonner's point, r. 516 Chenevert.
+McAshan M. E. Church (South), nw cor Buffalo, German, Rev. J. R. Warlick, pastor.
+McAshan Samuel E., grain dealer, office 913½ Franklin, phone 404, r. 1914 Travis.
+McAshan Samuel M., with T. W. House, r. 1315 Main. Phone 427.
+McAshan S. Maurice, jr., collector South Texas Nat'l bank, h. J. E. McAshan.
+McAshan Thomas W., watchman H. & T. C. frt depot, h. 706 Girard.
+McAughan Charles H., horse shoer James McAughan, h. same.
+McAUGHAN JAMES, BLACKSMITH, wheelwright, horseshoer, shop 108 San Jacinto, phone 1083-6 rings, r. 3004 Odin ave. See advt.
+McAuliff Louis, engr H. & T. C. R. R., r. 1817 Center.
+McAuliffe Eugene, r. 2614 Glass.
+McAuliffe Jennie (Mrs. Wm.), r. ss Barnes bt Wagner, Abbott.
+McAustin James (c), peddler, r. es Houston ave, ¼ mile n of White Oak bayou.
+McBeth Delia (c), servt Ernest Necco.
+McBride Anderson J. (McBride Bros.), rms 1720 Montgomery ave.
+McBride Belle Miss, h. 504 James.
+McBride Bros. (Anderson J. and Lewis) groceries; feed, 1720 Montgomery ave. Phone 1440-2 rings, C. phone 1257.
+McBride Charles K., appc blksmith S. P. shops, h. George McBride.
+McBride Clara (c), performer Solo theatre, rms same.
+McBride Cornelius M. (c), porter Grand Central depot lunch stand, rms rear 2 Artesian.
+McBride George, carp S. P. shops, r. 2018 Gentry cor Paschal.
+McBride George W., appc carp S. P. shops, h. George McBride.
+McBride Harry H., appc carp S. P. shops, h. George McBride.
+McBride J. R., lumberman, bds Hotel Denver.
+McBride Lewis (McBride Bros.), rms 1720 Montgomery ave.
+McBride Stella (c), r. 2309 Prairie ave.
+McBride Lulu (wid J. A.), h. 118 St. Emanuel
+McBride William C., train baggage master H. & T. C. R. R., r. nw cor Allston, 15th ave, Houston Hts.
+McBride William S., rms 710½ Preston ave.
+McCabe Andrew, cooper, shop and r. cor House, Park.
+McCabe Edward, r. 1409 Milam.
+McCabe Edward (c), wks M. V. Wright, bds 2318 Decatur.
+McCabe Lloyd (c), lab, bds 2318 Decatur.
+McCabe Mary C. (c), wks Avenue House.
+McCabe Patrick, janitor City hall, rms same.
+McCain Fannie Miss, nurse, rms 620 Crawford
+McCall Bertha Miss, wks H. E. Fuller, r. same
+McCall D. B., agt Avery Plow Co., bds Hotel Bristol.
+McCall Lena Miss, wks Mrs. Flora Flaxman, r. same.
+McCall Norman W., cotton buyer, bds Hotel Denver.
+McCall Rhea Miss, h. F. H. Symes.
+McCall S. W., rms 514 Fannin.
+McCallahan Richard, wks Weld & Neville compress, bds Mrs. Ellen Meder.
+McCallister Sarah (c), r. 92 Gabel.
+McCandlish Robert, carp A. M. Pesses, rms 512 Milam.

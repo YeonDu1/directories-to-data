@@ -12,69 +12,300 @@
   "totals": {
     "pages_scored": 5,
     "manual_lines": 365,
-    "exact_matches": 365,
-    "near_matches": 0,
-    "missed": 0,
-    "spurious": 0,
-    "line_accuracy": 1.0,
-    "char_accuracy": 1.0
+    "exact_matches": 324,
+    "near_matches": 37,
+    "missed": 4,
+    "spurious": 4,
+    "line_accuracy": 0.8876712328767123,
+    "char_accuracy": 0.9966471000334765
   },
   "per_page": [
     {
       "page": 78,
       "manual_lines": 75,
       "pipeline_lines": 75,
-      "exact": 75,
-      "near": 0,
+      "exact": 69,
+      "near": 6,
       "missed": 0,
       "spurious": 0,
-      "line_accuracy": 1.0,
-      "char_accuracy": 1.0
+      "line_accuracy": 0.92,
+      "char_accuracy": 0.9989694077171276
     },
     {
       "page": 152,
       "manual_lines": 71,
       "pipeline_lines": 71,
-      "exact": 71,
-      "near": 0,
+      "exact": 66,
+      "near": 5,
       "missed": 0,
       "spurious": 0,
-      "line_accuracy": 1.0,
-      "char_accuracy": 1.0
+      "line_accuracy": 0.9295774647887324,
+      "char_accuracy": 0.998309297125725
     },
     {
       "page": 230,
       "manual_lines": 85,
       "pipeline_lines": 85,
-      "exact": 85,
-      "near": 0,
+      "exact": 84,
+      "near": 1,
       "missed": 0,
       "spurious": 0,
-      "line_accuracy": 1.0,
-      "char_accuracy": 1.0
+      "line_accuracy": 0.9882352941176471,
+      "char_accuracy": 0.9998879551820727
     },
     {
       "page": 280,
       "manual_lines": 81,
       "pipeline_lines": 81,
-      "exact": 81,
-      "near": 0,
+      "exact": 71,
+      "near": 10,
       "missed": 0,
       "spurious": 0,
-      "line_accuracy": 1.0,
-      "char_accuracy": 1.0
+      "line_accuracy": 0.8765432098765432,
+      "char_accuracy": 0.9958194974249911
     },
     {
       "page": 393,
       "manual_lines": 53,
       "pipeline_lines": 53,
-      "exact": 53,
-      "near": 0,
-      "missed": 0,
-      "spurious": 0,
-      "line_accuracy": 1.0,
-      "char_accuracy": 1.0
+      "exact": 34,
+      "near": 15,
+      "missed": 4,
+      "spurious": 4,
+      "line_accuracy": 0.6415094339622641,
+      "char_accuracy": 0.9864302439892542
     }
   ],
-  "discrepancies": []
+  "discrepancies": [
+    {
+      "page": 78,
+      "near_matches": [
+        {
+          "manual": "Bell William J. (wid D. W.), r. 2119 Chenevert.",
+          "pipeline": "Bell Wiliam J. (wid D. W.), r. 2119 Chenevert",
+          "similarity": 0.9783
+        },
+        {
+          "manual": "Bemis Lewis, carp, bds T. F. O’Neill.",
+          "pipeline": "Bemis Lewis, carp, bds T. F. O'Neill.",
+          "similarity": 0.973
+        },
+        {
+          "manual": "Bender Charles, jr. (C. Bender & Sons), r. 514 Broadway.",
+          "pipeline": "Bender Charles,, jr. (C. Bender & Sons), r. 514 Broadway.",
+          "similarity": 0.9912
+        },
+        {
+          "manual": "Bender Charles, sr. (C. Bender & Sons), r. 2001 Jefferson ave cor Chartres.",
+          "pipeline": "Bender, Charles, sr. (C. Bender & Sons), r. 2001 Jefferson ave cor Chartres.",
+          "similarity": 0.9934
+        },
+        {
+          "manual": "Bender Louis G., meat market, 1818 McKinney ave, C. phone 376, r. ss Harrisburg rd, 4th r. e of Milby.",
+          "pipeline": "Bender Louis G., meat market, 1818 McKinney ave, C. phone 376, r. ss Harisburg rd, 4th r. e of Milby.",
+          "similarity": 0.9951
+        },
+        {
+          "manual": "Benecke Charles D., carp H. & T. C. shops, h. 1111 Dallas ave.",
+          "pipeline": "Beneke Charles D., carp H. & T. C. shops, h. 1111 Dallas ave.",
+          "similarity": 0.9919
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "page": 152,
+      "near_matches": [
+        {
+          "manual": "Duncan Alice (wid Chas. A.), r. 8 John pl.",
+          "pipeline": "Duncan Alice (wid Chas. A.). r. 8 John pl.",
+          "similarity": 0.9762
+        },
+        {
+          "manual": "Duncan Maria (c), r. sw cor Marr New Orleans ave.",
+          "pipeline": "Duncan Maria (c), r. sw cor Mar\" New Orleans ave.",
+          "similarity": 0.9796
+        },
+        {
+          "manual": "Duncan William (c), lab; r. ss Sims bayou rd, ½ mile se of city.",
+          "pipeline": "Duncan William (c), lab; r. ss Sims bayou rd, 1/2 mile se of city.",
+          "similarity": 0.9692
+        },
+        {
+          "manual": "DUNLAP CHARLES F., dentist, 507½ Main, C. phone 212, rms 1309 Capitol ave, bds 508 Caroline.",
+          "pipeline": "DUNLAP CHARLES F., dentist, 507 1/2 Main, C. phone 212, rms 1309 Capitol ave, bds 508 Caroline.",
+          "similarity": 0.9733
+        },
+        {
+          "manual": "DUNN TRACY B., Attorney, Notary, also U. S. commissioner, Eastern dist. of Texas, office room 6 Camp bldg, 210½ Fannin, r. 1109 Fannin.",
+          "pipeline": "DUNN TRACY B., Attorney, Notary, also U. S. commissioner, Eastern dist. of Texas, office room 6 Camp bldg, 210 1/2 Fannin, r. 1109 Fannin.",
+          "similarity": 0.9817
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "page": 230,
+      "near_matches": [
+        {
+          "manual": "Jackson Fannie (c), r. ss Gillespie bt Clark, Meadow.",
+          "pipeline": "Jackson Fannie(c), r. ss Gillespie bt Clark, Meadow.",
+          "similarity": 0.9905
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "page": 280,
+      "near_matches": [
+        {
+          "manual": "Mays—See also Maes, May.",
+          "pipeline": "☞ Mays—See also Maes, May.",
+          "similarity": 0.96
+        },
+        {
+          "manual": "McAfee Carl, waiter Turf restaurant, rms 917½ Capitol ave.",
+          "pipeline": "McAfee Carl, waiter Turf restaurant, rms 917 1/2 Capitol ave.",
+          "similarity": 0.958
+        },
+        {
+          "manual": "McArthur John W., janitor Union Labor hall, 1215½ Preston ave, rms same.",
+          "pipeline": "McArthur John W., janitor Union Labor hall, 1215 1/2 Preston ave, rms same.",
+          "similarity": 0.966
+        },
+        {
+          "manual": "McAshan Samuel E., grain dealer, office 913½ Franklin, phone 404, r. 1914 Travis.",
+          "pipeline": "McAshan Samuel E., grain dealer, office 913 1/2 Franklin, phone 404, r. 1914 Travis.",
+          "similarity": 0.9697
+        },
+        {
+          "manual": "McAUGHAN JAMES, BLACKSMITH, wheelwright, horseshoer, shop 108 San Jacinto, phone 1083-6 rings, r. 3004 Odin ave. See advt.",
+          "pipeline": "McAUGHAN JAMES, Blacksmith, wheelwright, horseshoer, shop 108 San Jacinto, phone 1083-6 rings, r. 3004 Odin ave. See advt.",
+          "similarity": 0.9262
+        },
+        {
+          "manual": "McAustin James (c), peddler, r. es Houston ave, ¼ mile n of White Oak bayou.",
+          "pipeline": "McAustin James (c), peddler, r. es Houston ave, 1/4 mile n of White Oak bayou.",
+          "similarity": 0.974
+        },
+        {
+          "manual": "McBride Lulu (wid J. A.), h. 118 St. Emanuel",
+          "pipeline": "McBride Lulu (wid J. A.), h. 118 St. Emanuel.",
+          "similarity": 0.9888
+        },
+        {
+          "manual": "McBride William S., rms 710½ Preston ave.",
+          "pipeline": "McBride William S., rms 710 1/2 Preston ave.",
+          "similarity": 0.9412
+        },
+        {
+          "manual": "McCain Fannie Miss, nurse, rms 620 Crawford",
+          "pipeline": "McCain Fannie Miss, nurse, rms 620 Crawford.",
+          "similarity": 0.9885
+        },
+        {
+          "manual": "McCall Bertha Miss, wks H. E. Fuller, r. same",
+          "pipeline": "McCall Bertha Miss, wks H. E. Fuller, r. same.",
+          "similarity": 0.989
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "page": 393,
+      "near_matches": [
+        {
+          "manual": "Temme Emelia M. Miss, saleslady A. Hampe, h. 807 Washington.",
+          "pipeline": "Temme Emelia M. Miss, salslady A. Hampe, h. 807 Washington.",
+          "similarity": 0.9916
+        },
+        {
+          "manual": "Tenney Samuel M. Rev. pastor Second Presbyterian church, r. 1308 Dallas ave.",
+          "pipeline": "Tenney Samuel M. Rev., pastor Second Presbyterian church, r. 1308 Dallas ave.",
+          "similarity": 0.9935
+        },
+        {
+          "manual": "Terranova Vicie Miss, h. Michel Lamana.",
+          "pipeline": "Terranova Vicle Miss, h. Michel Lamana.",
+          "similarity": 0.9744
+        },
+        {
+          "manual": "Terrill Hannah (c), r. 418 al. rear 817 8th.",
+          "pipeline": "Terrell Hannah (c), r. 418 al. rear 817 8th.",
+          "similarity": 0.9773
+        },
+        {
+          "manual": "Texas Association of Superintendents of Railways, office 1009½ Franklin, C. B. Peck, prest; R. S. Collins, secy, treasr. Phone 450",
+          "pipeline": "Texas Association of Superintendents of Railways, office 1009 1/2 Franklin, C. B. Peck, prest; R. S. Collins, secy, treasr. Phone 450",
+          "similarity": 0.981
+        },
+        {
+          "manual": "Texas and Louisiana Lumber Co. (Inc.), Percy Allen, prest; A. F. Sharpe, vice-prest; R. M. Farrar, secy; lumber, shingles, sash, doors, blinds, mouldings, 1701-1711 Franklin ave cor Jackson. Phones 153. See advt.",
+          "pipeline": "TEXAS AND LOUISIANA Lumber Co. (Inc.), Percy Allen, prest; A. F. Sharpe, vice-prest; R. M. Farrar, secy; lumber, shingles, sash, doors, blinds, mouldings, 1701-1711 Franklin ave cor Jackson. Phones 153. See advt.",
+          "similarity": 0.9245
+        },
+        {
+          "manual": "Texas Cigar Co. (Frank Elvis, propr) whol and retail cigars, tobacco, 216 Main. Phone 1164.",
+          "pipeline": "Texas Cigar Co. (Frank Elvis, propr), whol and retail cigars, tobacco, 216 Main. Phone 1164.",
+          "similarity": 0.9945
+        },
+        {
+          "manual": "Texas City Co. (J. R. Myers, mgr), owners of Texas City townsite, headquarters Texas City, Houston office 202 Binz bldg. Phone 547.",
+          "pipeline": "TEXAS CITY CO. (J. R. Myers, mgr), owners of Texas City townsite, headquarters Texas City, Houston office 202 Binz bldg. Phone 547.",
+          "similarity": 0.9389
+        },
+        {
+          "manual": "Texas Coffee, Tea and Spice Co. (E. C. Crawford, propr), mfrs Crawford's and Fairy baking powders, bluing and spices, also coffee roasters, tea and paper bag dealers. 1010-1014 Texas ave, phones 137, also 807-809 San Jacinto. Phone 622. See advt.",
+          "pipeline": "TEXAS COFFEE, TEA AND Spice Co. (E. C. Crawford, propr), mfrs Crawford's and Fairy baking powders, bluing and spices, also coffee roasters, tea and paper bag dealers. 1010-1014 Texas ave, phones 137, also 807-809 San Jacinto. Phone 622. See advt.",
+          "similarity": 0.9309
+        },
+        {
+          "manual": "Texas Costume Co. (Joseph A. Friedman, mgr), theatrical supplies, mfrs masquerade costumes, regalias, etc., 613 Travis. Phone 524-2.",
+          "pipeline": "TEXAS COSTUME CO. (Joseph A. Friedman, mgr), theatrical supplies, mfrs masquerade costumes, regalias, etc., 613 Travis. Phone 524-2.",
+          "similarity": 0.9167
+        },
+        {
+          "manual": "Texas Deutsche Zeitung, issued every Thursday, office 1114 Preston ave. August W. Haxthausen, editor and propr. Phone 1125.",
+          "pipeline": "TEXAS DEUTSCHE Zeitung, issued every Thursday, office 1114 Preston ave. August W. Haxthausen, editor and propr. Phone 1125.",
+          "similarity": 0.9106
+        },
+        {
+          "manual": "Texas Fuel Co. (J. Harvey Starrett, mgr), wood yd, 1002 Main, cor McKinney ave. Phone 883.",
+          "pipeline": "TEXAS FUEL CO. (J. Harvey Starrett, mgr), wood yd, 1002 Main, cor McKinney ave. Phone 883.",
+          "similarity": 0.9111
+        },
+        {
+          "manual": "Texas Land and Immigration Bureau, W. L. Orr, mgr; Alfred H. H. Tolar, John W. Slimp, all of Alvin, real estate dealers and exhibitors of Texas products, 613 Washington.",
+          "pipeline": "TEXAS LAND AND Immigration Bureau, W. L. Orr, mgr; Alfred H. H. Tolar, John W. Slimp, all of Alvin, real estate dealers and exhibitors of Texas products, 613 Washington.",
+          "similarity": 0.9408
+        },
+        {
+          "manual": "Texas Loan and Investment Co. of Galveston, W. W. Thomas, local agt, 317½ Main.",
+          "pipeline": "Texas Loan and Investment Co. of Galveston, W. W. Thomas, local agt, 317 1/2 Main.",
+          "similarity": 0.9689
+        },
+        {
+          "manual": "Texas and Missouri Land Co. (Claes A. Elmen, James E. Fagan, J. J. Tweddle), real estate, land, loan agts, 1015½ Congress ave.",
+          "pipeline": "Texas and Missouri Land Co. (Claes A. Elmen, James E. Fagan, J. J. Tweddle), real estate, land, loan agts, 1015 1/2 Congress ave.",
+          "similarity": 0.9804
+        }
+      ],
+      "missed": [
+        "Texas Car Service Ass'n office 1009½ Franklin ave, phone 450, Charles B. Peck, mgr; Robert S. Collins, secy.",
+        "Texas City Terminal Co. (Inc.), headquarters Texas City, Houston office 202 Binz bldg, phone 547, J. R. Myers, mgr.",
+        "Texas Lamp and Oil Co. (Robert Griffin, mgr), whol and retail lamps, oil and fixtures, 701 Main. Phones 176.",
+        "Texas Mercantile Agency (F. D. McIntyre, mgr), retailers' agency, room 410 Kiam bldg. Phone 995."
+      ],
+      "spurious": [
+        "TEXAS CAR SERVICE ASS'N office 1009 1/2 Franklin ave, phone 450, Charles B. Peck, mgr; Robert S. Collins, secy.",
+        "TEXAS CITY TERMINAL CO. (Inc.), headquarters Texas City, Houston office 202 Binz bldg, phone 547, J. R. Myers, mgr.",
+        "TEXAS LAMP AND OIL CO. (Robert Griffin, mgr), whol and retail lamps, oil and fixtures, 701 Main. Phones 176.",
+        "TEXAS MERCANTILE Agency (F. D. McIntyre, mgr), retailers' agency, room 410 Kiam bldg. Phone 995."
+      ]
+    }
+  ]
 }
