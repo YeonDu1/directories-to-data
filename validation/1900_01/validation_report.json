@@ -12,12 +12,12 @@
   "totals": {
     "pages_scored": 5,
     "manual_lines": 365,
-    "exact_matches": 324,
-    "near_matches": 37,
+    "exact_matches": 335,
+    "near_matches": 26,
     "missed": 4,
     "spurious": 4,
-    "line_accuracy": 0.8876712328767123,
-    "char_accuracy": 0.9966471000334765
+    "line_accuracy": 0.9178082191780822,
+    "char_accuracy": 0.9975795885804427
   },
   "per_page": [
     {
@@ -35,12 +35,12 @@
       "page": 152,
       "manual_lines": 71,
       "pipeline_lines": 71,
-      "exact": 66,
-      "near": 5,
+      "exact": 69,
+      "near": 2,
       "missed": 0,
       "spurious": 0,
-      "line_accuracy": 0.9295774647887324,
-      "char_accuracy": 0.998309297125725
+      "line_accuracy": 0.971830985915493,
+      "char_accuracy": 0.9993772156750024
     },
     {
       "page": 230,
@@ -57,23 +57,23 @@
       "page": 280,
       "manual_lines": 81,
       "pipeline_lines": 81,
-      "exact": 71,
-      "near": 10,
+      "exact": 76,
+      "near": 5,
       "missed": 0,
       "spurious": 0,
-      "line_accuracy": 0.8765432098765432,
-      "char_accuracy": 0.9958194974249911
+      "line_accuracy": 0.9382716049382716,
+      "char_accuracy": 0.9981791393738021
     },
     {
       "page": 393,
       "manual_lines": 53,
       "pipeline_lines": 53,
-      "exact": 34,
-      "near": 15,
+      "exact": 37,
+      "near": 12,
       "missed": 4,
       "spurious": 4,
-      "line_accuracy": 0.6415094339622641,
-      "char_accuracy": 0.9864302439892542
+      "line_accuracy": 0.6981132075471698,
+      "char_accuracy": 0.9878521858382844
     }
   ],
   "discrepancies": [
@@ -126,21 +126,6 @@
           "manual": "Duncan Maria (c), r. sw cor Marr New Orleans ave.",
           "pipeline": "Duncan Maria (c), r. sw cor Mar\" New Orleans ave.",
           "similarity": 0.9796
-        },
-        {
-          "manual": "Duncan William (c), lab; r. ss Sims bayou rd, ½ mile se of city.",
-          "pipeline": "Duncan William (c), lab; r. ss Sims bayou rd, 1/2 mile se of city.",
-          "similarity": 0.9692
-        },
-        {
-          "manual": "DUNLAP CHARLES F., dentist, 507½ Main, C. phone 212, rms 1309 Capitol ave, bds 508 Caroline.",
-          "pipeline": "DUNLAP CHARLES F., dentist, 507 1/2 Main, C. phone 212, rms 1309 Capitol ave, bds 508 Caroline.",
-          "similarity": 0.9733
-        },
-        {
-          "manual": "DUNN TRACY B., Attorney, Notary, also U. S. commissioner, Eastern dist. of Texas, office room 6 Camp bldg, 210½ Fannin, r. 1109 Fannin.",
-          "pipeline": "DUNN TRACY B., Attorney, Notary, also U. S. commissioner, Eastern dist. of Texas, office room 6 Camp bldg, 210 1/2 Fannin, r. 1109 Fannin.",
-          "similarity": 0.9817
         }
       ],
       "missed": [],
@@ -167,39 +152,14 @@
           "similarity": 0.96
         },
         {
-          "manual": "McAfee Carl, waiter Turf restaurant, rms 917½ Capitol ave.",
-          "pipeline": "McAfee Carl, waiter Turf restaurant, rms 917 1/2 Capitol ave.",
-          "similarity": 0.958
-        },
-        {
-          "manual": "McArthur John W., janitor Union Labor hall, 1215½ Preston ave, rms same.",
-          "pipeline": "McArthur John W., janitor Union Labor hall, 1215 1/2 Preston ave, rms same.",
-          "similarity": 0.966
-        },
-        {
-          "manual": "McAshan Samuel E., grain dealer, office 913½ Franklin, phone 404, r. 1914 Travis.",
-          "pipeline": "McAshan Samuel E., grain dealer, office 913 1/2 Franklin, phone 404, r. 1914 Travis.",
-          "similarity": 0.9697
-        },
-        {
           "manual": "McAUGHAN JAMES, BLACKSMITH, wheelwright, horseshoer, shop 108 San Jacinto, phone 1083-6 rings, r. 3004 Odin ave. See advt.",
           "pipeline": "McAUGHAN JAMES, Blacksmith, wheelwright, horseshoer, shop 108 San Jacinto, phone 1083-6 rings, r. 3004 Odin ave. See advt.",
           "similarity": 0.9262
         },
         {
-          "manual": "McAustin James (c), peddler, r. es Houston ave, ¼ mile n of White Oak bayou.",
-          "pipeline": "McAustin James (c), peddler, r. es Houston ave, 1/4 mile n of White Oak bayou.",
-          "similarity": 0.974
-        },
-        {
           "manual": "McBride Lulu (wid J. A.), h. 118 St. Emanuel",
           "pipeline": "McBride Lulu (wid J. A.), h. 118 St. Emanuel.",
           "similarity": 0.9888
-        },
-        {
-          "manual": "McBride William S., rms 710½ Preston ave.",
-          "pipeline": "McBride William S., rms 710 1/2 Preston ave.",
-          "similarity": 0.9412
         },
         {
           "manual": "McCain Fannie Miss, nurse, rms 620 Crawford",
@@ -237,11 +197,6 @@
           "manual": "Terrill Hannah (c), r. 418 al. rear 817 8th.",
           "pipeline": "Terrell Hannah (c), r. 418 al. rear 817 8th.",
           "similarity": 0.9773
-        },
-        {
-          "manual": "Texas Association of Superintendents of Railways, office 1009½ Franklin, C. B. Peck, prest; R. S. Collins, secy, treasr. Phone 450",
-          "pipeline": "Texas Association of Superintendents of Railways, office 1009 1/2 Franklin, C. B. Peck, prest; R. S. Collins, secy, treasr. Phone 450",
-          "similarity": 0.981
         },
         {
           "manual": "Texas and Louisiana Lumber Co. (Inc.), Percy Allen, prest; A. F. Sharpe, vice-prest; R. M. Farrar, secy; lumber, shingles, sash, doors, blinds, mouldings, 1701-1711 Franklin ave cor Jackson. Phones 153. See advt.",
@@ -282,16 +237,6 @@
           "manual": "Texas Land and Immigration Bureau, W. L. Orr, mgr; Alfred H. H. Tolar, John W. Slimp, all of Alvin, real estate dealers and exhibitors of Texas products, 613 Washington.",
           "pipeline": "TEXAS LAND AND Immigration Bureau, W. L. Orr, mgr; Alfred H. H. Tolar, John W. Slimp, all of Alvin, real estate dealers and exhibitors of Texas products, 613 Washington.",
           "similarity": 0.9408
-        },
-        {
-          "manual": "Texas Loan and Investment Co. of Galveston, W. W. Thomas, local agt, 317½ Main.",
-          "pipeline": "Texas Loan and Investment Co. of Galveston, W. W. Thomas, local agt, 317 1/2 Main.",
-          "similarity": 0.9689
-        },
-        {
-          "manual": "Texas and Missouri Land Co. (Claes A. Elmen, James E. Fagan, J. J. Tweddle), real estate, land, loan agts, 1015½ Congress ave.",
-          "pipeline": "Texas and Missouri Land Co. (Claes A. Elmen, James E. Fagan, J. J. Tweddle), real estate, land, loan agts, 1015 1/2 Congress ave.",
-          "similarity": 0.9804
         }
       ],
       "missed": [

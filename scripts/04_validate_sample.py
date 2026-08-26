@@ -32,6 +32,7 @@ Usage:
 
 import json
 import random
+import re
 import argparse
 import sys
 from difflib import SequenceMatcher
@@ -173,6 +174,18 @@ def read_manual(path: Path) -> list[str]:
     return [raw.strip() for raw in body.splitlines() if raw.strip()]
 
 
+def normalize_fractions(s: str) -> str:
+    """
+    Treat printed fraction glyphs and their "1/2"-style spellouts as
+    equivalent for comparison purposes. The pipeline transcribes a printed
+    ½/¼/¾ as "1/2"/"1/4"/"3/4" (with a preceding space); normalize both
+    sides to the same bare form so this stops counting as a discrepancy.
+    """
+    s = s.replace("½", "1/2").replace("¼", "1/4").replace("¾", "3/4")
+    s = re.sub(r"\s+(1/2|1/4|3/4)", r"\1", s)
+    return s
+
+
 def similarity(a: str, b: str) -> float:
     """Character-level similarity ratio between two strings, 0.0 to 1.0."""
     return SequenceMatcher(None, a, b).ratio()
@@ -183,8 +196,15 @@ def align_and_score(manual: list[str], pipeline: list[str], threshold: float):
     Align the two line lists using difflib, then classify each line as
     an exact match, a near match (same entry, minor character differences),
     a pipeline-only line (spurious), or a manual-only line (missed).
+
+    Alignment and similarity are computed on fraction-normalized text (see
+    normalize_fractions), so a ½ vs "1/2" difference alone doesn't count
+    against a match; the original, unnormalized text is still what gets
+    stored and shown in near/missed/spurious detail.
     """
-    matcher = SequenceMatcher(None, manual, pipeline)
+    manual_norm = [normalize_fractions(m) for m in manual]
+    pipeline_norm = [normalize_fractions(p) for p in pipeline]
+    matcher = SequenceMatcher(None, manual_norm, pipeline_norm)
 
     exact = 0
     near = []          # (manual_line, pipeline_line, ratio)
@@ -202,7 +222,7 @@ def align_and_score(manual: list[str], pipeline: list[str], threshold: float):
                 m = m_block[k] if k < len(m_block) else None
                 p = p_block[k] if k < len(p_block) else None
                 if m is not None and p is not None:
-                    ratio = similarity(m, p)
+                    ratio = similarity(normalize_fractions(m), normalize_fractions(p))
                     if ratio >= threshold:
                         near.append((m, p, ratio))
                     else:
