@@ -139,11 +139,37 @@ def parse_pages(pages_arg: str, pdf_path: str) -> list[int]:
 # Prompt
 # ---------------------------------------------------------------------------
 
-def build_prompt(abbreviations: list[dict], page_count: int) -> str:
+def edition_context(layout: dict) -> str:
+    """
+    Describe this directory edition for the prompt, from page_layout.json's
+    optional "edition" block ({"city", "year_label", "publisher"}). Falls
+    back to generic wording for any field that's missing, so an edition
+    with no block at all (or a partial one) still works.
+    """
+    edition = layout.get("edition", {})
+    city = edition.get("city")
+    year_label = edition.get("year_label")
+    publisher = edition.get("publisher")
+
+    if city and year_label:
+        desc = f"the {year_label} {city} city directory"
+    elif city:
+        desc = f"a historical {city} city directory"
+    elif year_label:
+        desc = f"a historical city directory from {year_label}"
+    else:
+        desc = "a historical city directory"
+
+    if publisher:
+        desc += f", published by {publisher}"
+    return desc
+
+
+def build_prompt(abbreviations: list[dict], page_count: int, edition_desc: str) -> str:
     abbrev_json = json.dumps(abbreviations, indent=2)
     return f"""\
-These are {page_count} consecutive pages from the General Directory of
-Names section of a historical city directory, in page order.
+These are {page_count} consecutive pages, in page order, from the General
+Directory of Names section of {edition_desc}.
 
 Use the abbreviation meanings below only to resolve genuinely ambiguous
 characters during transcription. Do not expand abbreviations in your
@@ -201,11 +227,11 @@ Rules:
 # ---------------------------------------------------------------------------
 
 @traceable(name="transcribe_page_batch")
-def extract_batch(pdf_bytes: bytes, abbreviations: list[dict], page_count: int) -> list[dict]:
+def extract_batch(pdf_bytes: bytes, abbreviations: list[dict], page_count: int, edition_desc: str) -> list[dict]:
     """Send a batch of pages, as one in-memory PDF, to Gemini. Returns the parsed page array."""
     parts = [
         types.Part.from_bytes(mime_type="application/pdf", data=pdf_bytes),
-        types.Part.from_text(text=build_prompt(abbreviations, page_count)),
+        types.Part.from_text(text=build_prompt(abbreviations, page_count, edition_desc)),
     ]
 
     response = client.models.generate_content(
@@ -249,7 +275,7 @@ def page_warnings(pages) -> list[str]:
 
 
 def transcribe_pages(
-    pdf_path: str, page_numbers: list[int], abbreviations: list[dict]
+    pdf_path: str, page_numbers: list[int], abbreviations: list[dict], edition_desc: str
 ) -> tuple[dict[int, dict], list[dict]]:
     """
     Transcribe a set of pages, splitting and retrying on failure.
@@ -268,7 +294,7 @@ def transcribe_pages(
     pdf_bytes = extract_pages_as_pdf_bytes(pdf_path, page_numbers)
 
     try:
-        result_pages = extract_batch(pdf_bytes, abbreviations, len(page_numbers))
+        result_pages = extract_batch(pdf_bytes, abbreviations, len(page_numbers), edition_desc)
         if len(result_pages) != len(page_numbers):
             raise ValueError(f"count mismatch: sent {len(page_numbers)}, got {len(result_pages)}")
 
@@ -286,8 +312,8 @@ def transcribe_pages(
         if len(page_numbers) == 1:
             return {}, [{"page": page_numbers[0], "error": str(e)[:200]}]
         mid = len(page_numbers) // 2
-        r1, f1 = transcribe_pages(pdf_path, page_numbers[:mid], abbreviations)
-        r2, f2 = transcribe_pages(pdf_path, page_numbers[mid:], abbreviations)
+        r1, f1 = transcribe_pages(pdf_path, page_numbers[:mid], abbreviations, edition_desc)
+        r2, f2 = transcribe_pages(pdf_path, page_numbers[mid:], abbreviations, edition_desc)
         return {**r1, **r2}, f1 + f2
 
 # ---------------------------------------------------------------------------
@@ -352,6 +378,7 @@ def process_batch(
     page_numbers: list[int],
     abbreviations: list[dict],
     out_dir: Path,
+    edition_desc: str,
     dry_run: bool = False,
 ) -> list[dict]:
     """
@@ -376,7 +403,7 @@ def process_batch(
         return summaries
 
     print(f"  Fetching pages {pages_to_fetch} in one batch call...")
-    results, failed = transcribe_pages(pdf_path, pages_to_fetch, abbreviations)
+    results, failed = transcribe_pages(pdf_path, pages_to_fetch, abbreviations, edition_desc)
 
     warnings = page_warnings(results.values())
     if warnings:
@@ -455,10 +482,13 @@ def main():
     abbreviations = load_abbreviations(config_dir)
     print(f"  {len(abbreviations)} abbreviations loaded.")
 
+    layout = load_page_layout(config_dir)
+    edition_desc = edition_context(layout)
+    print(f"Edition: {edition_desc}")
+
     if args.pages:
         pages = parse_pages(args.pages, args.pdf)
     else:
-        layout = load_page_layout(config_dir)
         entries_source = layout.get("entries_source", {})
         start = entries_source.get("page_start")
         end = entries_source.get("page_end")
@@ -477,7 +507,7 @@ def main():
     for batch_num, batch in enumerate(chunk_list(pages, args.batch_size), start=1):
         print(f"\nBatch {batch_num}: pages {batch}")
         try:
-            summaries = process_batch(args.pdf, batch, abbreviations, out_dir, dry_run=args.dry_run)
+            summaries = process_batch(args.pdf, batch, abbreviations, out_dir, edition_desc, dry_run=args.dry_run)
             all_summaries.extend(summaries)
         except Exception as e:
             print(f"  ERROR on batch {batch}: {e}")

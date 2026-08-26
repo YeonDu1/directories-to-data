@@ -71,9 +71,35 @@ MAX_OUTPUT_TOKENS = 32768
 # Prompt
 # ---------------------------------------------------------------------------
 
-PARSE_PROMPT = """\
-These are verbatim transcribed lines from a historical city directory
-(Houston, Texas, circa 1900). Each line is one directory entry.
+def edition_context(layout: dict) -> str:
+    """
+    Describe this directory edition for the prompt, from page_layout.json's
+    optional "edition" block ({"city", "year_label", "publisher"}). Falls
+    back to generic wording for any field that's missing, so an edition
+    with no block at all (or a partial one) still works.
+    """
+    edition = layout.get("edition", {})
+    city = edition.get("city")
+    year_label = edition.get("year_label")
+    publisher = edition.get("publisher")
+
+    if city and year_label:
+        desc = f"the {year_label} {city} city directory"
+    elif city:
+        desc = f"a historical {city} city directory"
+    elif year_label:
+        desc = f"a historical city directory from {year_label}"
+    else:
+        desc = "a historical city directory"
+
+    if publisher:
+        desc += f", published by {publisher}"
+    return desc
+
+
+PARSE_PROMPT_TEMPLATE = """\
+These are verbatim transcribed lines from __EDITION_DESC__. Each line is
+one directory entry.
 
 Parse each line into structured fields and return a JSON array with
 one object per input line, in the same order:
@@ -134,12 +160,16 @@ Rules:
 - Return only the JSON array. No explanation, no markdown fences.
 """
 
+
+def build_parse_prompt(edition_desc: str) -> str:
+    return PARSE_PROMPT_TEMPLATE.replace("__EDITION_DESC__", edition_desc)
+
 # ---------------------------------------------------------------------------
 # API call
 # ---------------------------------------------------------------------------
 
 @traceable(name="parse_entry_batch")
-def call_gemini(numbered_lines: str) -> list:
+def call_gemini(numbered_lines: str, prompt_text: str) -> list:
     """One API call. Returns the parsed JSON list."""
     response = client.models.generate_content(
         model=MODEL,
@@ -147,7 +177,7 @@ def call_gemini(numbered_lines: str) -> list:
             types.Content(
                 role="user",
                 parts=[types.Part.from_text(
-                    text=PARSE_PROMPT + f"\n\nLines to parse:\n{numbered_lines}"
+                    text=prompt_text + f"\n\nLines to parse:\n{numbered_lines}"
                 )],
             )
         ],
@@ -164,7 +194,7 @@ def call_gemini(numbered_lines: str) -> list:
     return parsed
 
 
-def parse_lines(lines: list[dict], depth: int = 0) -> tuple[list[dict], list[dict]]:
+def parse_lines(lines: list[dict], prompt_text: str, depth: int = 0) -> tuple[list[dict], list[dict]]:
     """
     Parse a list of entry lines. Returns (parsed, failed).
 
@@ -175,7 +205,7 @@ def parse_lines(lines: list[dict], depth: int = 0) -> tuple[list[dict], list[dic
     numbered = "\n".join(f"{i+1}. {item['line']}" for i, item in enumerate(lines))
 
     try:
-        raw = call_gemini(numbered)
+        raw = call_gemini(numbered, prompt_text)
         if len(raw) != len(lines):
             raise ValueError(f"count mismatch: sent {len(lines)}, got {len(raw)}")
 
@@ -195,8 +225,8 @@ def parse_lines(lines: list[dict], depth: int = 0) -> tuple[list[dict], list[dic
         if len(lines) == 1:
             return [], [{**lines[0], "error": str(e)[:200]}]
         mid = len(lines) // 2
-        l_ok, l_bad = parse_lines(lines[:mid], depth + 1)
-        r_ok, r_bad = parse_lines(lines[mid:], depth + 1)
+        l_ok, l_bad = parse_lines(lines[:mid], prompt_text, depth + 1)
+        r_ok, r_bad = parse_lines(lines[mid:], prompt_text, depth + 1)
         return l_ok + r_ok, l_bad + r_bad
 
 
@@ -217,6 +247,14 @@ def load_entries(year_vol: str) -> list[dict]:
     if not p.exists():
         raise FileNotFoundError(f"{p} not found. Run 02_merge_pages.py first.")
     with open(p, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_page_layout(config_dir: Path) -> dict:
+    layout_path = config_dir / "page_layout.json"
+    if not layout_path.exists():
+        return {}
+    with open(layout_path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -265,6 +303,11 @@ def main():
     ap.add_argument("--restart", action="store_true")
     args = ap.parse_args()
 
+    layout = load_page_layout(Path("config") / args.year_vol)
+    edition_desc = edition_context(layout)
+    prompt_text = build_parse_prompt(edition_desc)
+    print(f"Edition: {edition_desc}")
+
     print(f"Loading entries from {args.year_vol}_entries.json ...")
     entries = load_entries(args.year_vol)
     if args.limit:
@@ -291,7 +334,7 @@ def main():
 
     def work(item):
         idx, batch = item
-        ok, bad = parse_lines(batch)
+        ok, bad = parse_lines(batch, prompt_text)
         return idx, ok, bad
 
     try:

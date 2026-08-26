@@ -1,4 +1,9 @@
 {
+    "edition": {
+      "city": "Houston",
+      "year_label": "1900-1901",
+      "publisher": "Morrison & Fourmy"
+    },
     "abbreviations": {
       "file": "abbreviations.pdf",
       "page": 1
