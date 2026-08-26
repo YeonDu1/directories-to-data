@@ -1,0 +1,237 @@
+# Manual transcription worksheet - PDF page 78
+#
+# Open page 78 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+[
+  {
+    "line": "Bell Richard (c), lab, r. 1510 Moore."
+  },
+  {
+    "line": "Bell Robert (c), wks I. & G. N. Ry, r. 107 N. E. Buffalo."
+  },
+  {
+    "line": "Bell Robert (c), lab, r. 1301 Houston av."
+  },
+  {
+    "line": "Bell Robert B. (c), switchman H. & T. C. yds, r. 413 Washington ave. C. phone 1249."
+  },
+  {
+    "line": "Bell Sallie L. Miss, stenographer F. W. Heitmann & Co., h. 2119 Chenevert."
+  },
+  {
+    "line": "Bell Samuel (c), bar porter, r. s of San Felipe, ½ mile w of G. H. & S. A. Ry."
+  },
+  {
+    "line": "Bell Sarah I. (wid W. T.), r. 1102 Walker."
+  },
+  {
+    "line": "Bell Susan (c), r. 1012 Saulnier."
+  },
+  {
+    "line": "BELL THAD C., Asst Agcy Director New York Life Ins. Co., office 207 Kiam bldg, r. 2011 Travis. Phone 1173."
+  },
+  {
+    "line": "Bell Thomas A., machst H. & T. C. shops, r. 1518 Bingham."
+  },
+  {
+    "line": "Bell Virginia (c), boardinghouse, 413 Washington. C. phone 1249."
+  },
+  {
+    "line": "Bell Wesley (c), lab, h. Lewis Underwood."
+  },
+  {
+    "line": "Bell William E., wks Box-Bell-Saunders Com. Co., r. 3307 Washington."
+  },
+  {
+    "line": "Bell Wiliam J. (wid D. W.), r. 2119 Chenevert"
+  },
+  {
+    "line": "Bell William J., clk Peden & Co., h. 1518 Bingham."
+  },
+  {
+    "line": "Bellairs Garnett W., trav slsmn, r. 502 Lamar."
+  },
+  {
+    "line": "Bellairs Mary (wid Clement W.), r. 502 Lamar ave."
+  },
+  {
+    "line": "Belleggie August, vegetable dealer, r. 1601 Congress ave."
+  },
+  {
+    "line": "Belleggie Philip, groceries, beer, 1601 Congress ave, phone 1337-6 rings. C. phone 899, r. over store."
+  },
+  {
+    "line": "Belleggie Victoria (Mrs. A.), boardinghouse, over 1601 Congress ave."
+  },
+  {
+    "line": "Bellet James (c), lab, r. 14 Peter pl."
+  },
+  {
+    "line": "Belling Charles J., jeweler Houston Optical Co., r. 2007 Gentry."
+  },
+  {
+    "line": "Bellmon William (c), lab Southern oil mill, r. 1705 Summer."
+  },
+  {
+    "line": "Bellune Charlotte H. (wid J. T.), h. 1820 State"
+  },
+  {
+    "line": "Belmont Laura (c), performer Solo theater, rms same."
+  },
+  {
+    "line": "Belton James, rms 115 Austin."
+  },
+  {
+    "line": "Belton Oliver, rms 1515½ Robin."
+  },
+  {
+    "line": "Bembry Giddings W. (c), wks H. & T. C. shops, r. 1818 Winter."
+  },
+  {
+    "line": "Bemis Lewis, carp, bds T. F. O'Neill."
+  },
+  {
+    "line": "Benagio Victoria Miss, h. 1620 Jackson."
+  },
+  {
+    "line": "Benchley Anna N. (c), school teacher, h. 907 Waverly."
+  },
+  {
+    "line": "Benchley Etta E. (c), school teacher, h. 907 Waverly. Phone 1354-3 rings."
+  },
+  {
+    "line": "Benchley George W. (c), lab S. P. shops, r. 33 Trentam pl."
+  },
+  {
+    "line": "Benchley Walter (c), wks S. P. shops, r. 907 Waverly."
+  },
+  {
+    "line": "Bender Alice Miss, h. Mrs. Ernestina Schulte."
+  },
+  {
+    "line": "Bender Charles,, jr. (C. Bender & Sons), r. 514 Broadway."
+  },
+  {
+    "line": "Bender, Charles, sr. (C. Bender & Sons), r. 2001 Jefferson ave cor Chartres."
+  },
+  {
+    "line": "BENDER C. & SONS (Charles, sr., Charles, jr., Frank and Eugene), mfrs and whol. dealers in lumber, shingles, office 617 Willow cor Baker, phone 646; mills located at Moscow and Humboldt, Texas. See advt."
+  },
+  {
+    "line": "Bender Eugene (C. Bender & Sons), r. Moscow, Texas."
+  },
+  {
+    "line": "Bender Frank (C. Bender & Sons), r. Humboldt, Texas."
+  },
+  {
+    "line": "Bender Louis G., meat market, 1818 McKinney ave, C. phone 376, r. ss Harisburg rd, 4th r. e of Milby."
+  },
+  {
+    "line": "Bender Louis G., jr., student Massey college, h. L. G. Bender."
+  },
+  {
+    "line": "Bender Wiliam F., butcher L. G. Bender, h. same."
+  },
+  {
+    "line": "Beneke Charles D., carp H. & T. C. shops, h. 1111 Dallas ave."
+  },
+  {
+    "line": "BENEKE CHARLES H., Genl Foreman H. & T. C. car shops, also vice-prest Magnolia Cemetery Co., r. 1006 San Jacinto."
+  },
+  {
+    "line": "Beneke William, carp H. & T. C. shops, r. 1111 Dallas ave."
+  },
+  {
+    "line": "Benigen Lawrence, lab, r. ne cor St. Catherine, August."
+  },
+  {
+    "line": "Benjamin Lorenz, ice puller American brewery, bds Germania House."
+  },
+  {
+    "line": "Bennehoff Charles, lineman Citizens Tel. Co., bds 1905 Clay ave."
+  },
+  {
+    "line": "Bennett Addie (c), r. 1520 Jackson."
+  },
+  {
+    "line": "Bennett Amanda (c), servt B. F. Griffith."
+  },
+  {
+    "line": "Bennett August, clk S. P. Ry, bds 1720 Magnolia ave."
+  },
+  {
+    "line": "Bennett Benjamin (c), beer saloon, 1102 Shea."
+  },
+  {
+    "line": "Bennett Charles E., prescription clk G. Waples, rms Opera House bldg."
+  },
+  {
+    "line": "Bennett Durward A., asst jailer county jail, r. 2405 McKee."
+  },
+  {
+    "line": "Bennett Edward, driver J. P. Schosser, r. 601 Dallas ave."
+  },
+  {
+    "line": "Bennett Emma (c), h. 1206 Paige."
+  },
+  {
+    "line": "Bennett Frank W., truck rpr S. P. shops, bds 2405 McKee."
+  },
+  {
+    "line": "Bennett George, machst S. P. shops."
+  },
+  {
+    "line": "Bennett George B. (c), lab H. E. & W. T. frt depot, r. 2114 Clay ave."
+  },
+  {
+    "line": "Bennett George R., cotton classer, r. 2401 San Jacinto. Phone 1138-5 rings."
+  },
+  {
+    "line": "Bennett Henry L., tel opr Central depot, r. 512 Anita ave."
+  },
+  {
+    "line": "Bennett John (c), r. 2519 Lamar ave."
+  },
+  {
+    "line": "BENNETT MALCOLM D., tin, copper, sheet iron worker, cornice and galvanized iron cistern mfr, 1810 Providence, phones 726, r. cor Maury, Loraine."
+  },
+  {
+    "line": "Bennett Mary (wid), r. 1711 Austin."
+  },
+  {
+    "line": "Bennett Philip (c), porter Singer Mfg Co., bds 1510 Bell ave."
+  },
+  {
+    "line": "Bennett Richard (c), porter Grand Central depot, r. rear 1211 Milam."
+  },
+  {
+    "line": "Bennett Walter E., driver, r. 603 Dallas ave."
+  },
+  {
+    "line": "Bennett William K., tel. opr W. U. office, bds 512 Anita ave."
+  },
+  {
+    "line": "Benson Benjamin F., carriage painter Mosehart & Keller, r. 2516 Congress ave."
+  },
+  {
+    "line": "Benson Charles, wks W. G. Van Vleck, r. same."
+  },
+  {
+    "line": "Benson Earle, printer, rms 1504 Nance."
+  },
+  {
+    "line": "Benson Edward L., r. 1205 Live Oak."
+  },
+  {
+    "line": "Benson George (c), lab, h. Amanda Allman."
+  },
+  {
+    "line": "Benson John S., car inspr G. C. & S. F. Ry, r. 2602 Glass."
+  }
+]

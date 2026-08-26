@@ -1,0 +1,171 @@
+# Manual transcription worksheet - PDF page 393
+#
+# Open page 393 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+[
+  {
+    "line": "Temme Emelia M. Miss, salslady A. Hampe, h. 807 Washington."
+  },
+  {
+    "line": "Temme Frederick, driver American brewery, r. 807 Washington."
+  },
+  {
+    "line": "Temple Beth Israel, 201 Crawford, cor Franklin ave, Rev. Henry Bernstein, rabbi."
+  },
+  {
+    "line": "Temple Carrie B. (c), r. 1707 Crawford."
+  },
+  {
+    "line": "Temple Eva H. (c), r. 83 Pine."
+  },
+  {
+    "line": "Temple John, rms 2118 Commerce ave."
+  },
+  {
+    "line": "Templet Edward, fireman H. E. & W. T. Ry., bds 1516 Mary."
+  },
+  {
+    "line": "Templet John D., carp bridge and bldg dept T. & N. O. R. R., r. 1821 South, cor Hogan."
+  },
+  {
+    "line": "Templet William P., carp S. P. shops, r. 1603 Fulton."
+  },
+  {
+    "line": "Templeton D. Green, engr Pintsch gas works Houston Gas Light Co., bds 1807 Congress ave."
+  },
+  {
+    "line": "Templeton Howard W., transfer clk H. & T. C. depot, r. 3600 Barnes, cor Irvin ave."
+  },
+  {
+    "line": "Tenison Frank (c), lab, bds Nellie Woods."
+  },
+  {
+    "line": "Tenney Samuel M. Rev., pastor Second Presbyterian church, r. 1308 Dallas ave."
+  },
+  {
+    "line": "Tennsteadt Christian, gardener, r. 2712 Fox."
+  },
+  {
+    "line": "Terranova Vicle Miss, h. Michel Lamana."
+  },
+  {
+    "line": "Terrell Hannah (c), r. 418 al. rear 817 8th."
+  },
+  {
+    "line": "Terrell Julia (c), r. ss Elgin ave, bt Hutchins, St. Emanuel."
+  },
+  {
+    "line": "Terrell Mary E. (c), r. 2107 German."
+  },
+  {
+    "line": "Terrell Matilda (c), r. 1708 Bingham."
+  },
+  {
+    "line": "Terry Ada Mrs., r. 78 Gabel. Phones 787."
+  },
+  {
+    "line": "Terry Alfred (c), wks Mrs. M. P. Hughes, r. same."
+  },
+  {
+    "line": "Terry Almeda (c), wks G. J. Palmer, r. cor Pine, Baker."
+  },
+  {
+    "line": "Terrell Bud (c), lab, h. Miller Coleman."
+  },
+  {
+    "line": "Terry Cora (c), servt, r. rear 2113 Franklin ave."
+  },
+  {
+    "line": "Terry David J. (c), ydman Latham Hotel."
+  },
+  {
+    "line": "Terry Edna W. Miss, stenographer Love & McCord, h. 2011 Caroline."
+  },
+  {
+    "line": "Terry E. F., trav slsmn, bds 903 Walker ave."
+  },
+  {
+    "line": "Terry Jerome T., trainman H. E. St. Ry., r. 2011 Caroline."
+  },
+  {
+    "line": "Terry John (c), lab, r. se cor Holman ave, Chenevert."
+  },
+  {
+    "line": "Terry Julia (c), bds 1208 Preston ave."
+  },
+  {
+    "line": "Terry Leanna (c), r. 1209 Fuller."
+  },
+  {
+    "line": "Terry Nelson (c), wks Brady brick works, bds 2720 Engelke."
+  },
+  {
+    "line": "Terry William H., real estate owner, r. 2708 Washington."
+  },
+  {
+    "line": "Terwilliger Claud A., barber A. D. Gardner, rms 403 Caroline."
+  },
+  {
+    "line": "Terzovich Peter, candymkr Geo. Lalosovich & Co., h. 1419 Congress ave."
+  },
+  {
+    "line": "Tevis Robert H. (c), porter Courthouse Exchange saloon, rms 90 Spruce."
+  },
+  {
+    "line": "Texas Association of Superintendents of Railways, office 1009 1/2 Franklin, C. B. Peck, prest; R. S. Collins, secy, treasr. Phone 450"
+  },
+  {
+    "line": "TEXAS AND LOUISIANA Lumber Co. (Inc.), Percy Allen, prest; A. F. Sharpe, vice-prest; R. M. Farrar, secy; lumber, shingles, sash, doors, blinds, mouldings, 1701-1711 Franklin ave cor Jackson. Phones 153. See advt."
+  },
+  {
+    "line": "TEXAS CAR SERVICE ASS'N office 1009 1/2 Franklin ave, phone 450, Charles B. Peck, mgr; Robert S. Collins, secy."
+  },
+  {
+    "line": "Texas Cigar Co. (Frank Elvis, propr), whol and retail cigars, tobacco, 216 Main. Phone 1164."
+  },
+  {
+    "line": "TEXAS CITY CO. (J. R. Myers, mgr), owners of Texas City townsite, headquarters Texas City, Houston office 202 Binz bldg. Phone 547."
+  },
+  {
+    "line": "TEXAS CITY TERMINAL CO. (Inc.), headquarters Texas City, Houston office 202 Binz bldg, phone 547, J. R. Myers, mgr."
+  },
+  {
+    "line": "TEXAS COFFEE, TEA AND Spice Co. (E. C. Crawford, propr), mfrs Crawford's and Fairy baking powders, bluing and spices, also coffee roasters, tea and paper bag dealers. 1010-1014 Texas ave, phones 137, also 807-809 San Jacinto. Phone 622. See advt."
+  },
+  {
+    "line": "TEXAS COSTUME CO. (Joseph A. Friedman, mgr), theatrical supplies, mfrs masquerade costumes, regalias, etc., 613 Travis. Phone 524-2."
+  },
+  {
+    "line": "TEXAS DEUTSCHE Zeitung, issued every Thursday, office 1114 Preston ave. August W. Haxthausen, editor and propr. Phone 1125."
+  },
+  {
+    "line": "Texas Fruit, Flower and Vegetable Festival, office 911 Franklin ave, phone 514, H. F. MacGregor, prest; Tom Richardson, secy; T. W. House, treasr."
+  },
+  {
+    "line": "TEXAS FUEL CO. (J. Harvey Starrett, mgr), wood yd, 1002 Main, cor McKinney ave. Phone 883."
+  },
+  {
+    "line": "Texas Joseph (c), lab, r. 2505 McKinney ave."
+  },
+  {
+    "line": "TEXAS LAMP AND OIL CO. (Robert Griffin, mgr), whol and retail lamps, oil and fixtures, 701 Main. Phones 176."
+  },
+  {
+    "line": "TEXAS LAND AND Immigration Bureau, W. L. Orr, mgr; Alfred H. H. Tolar, John W. Slimp, all of Alvin, real estate dealers and exhibitors of Texas products, 613 Washington."
+  },
+  {
+    "line": "Texas Loan and Investment Co. of Galveston, W. W. Thomas, local agt, 317 1/2 Main."
+  },
+  {
+    "line": "TEXAS MERCANTILE Agency (F. D. McIntyre, mgr), retailers' agency, room 410 Kiam bldg. Phone 995."
+  },
+  {
+    "line": "Texas and Missouri Land Co. (Claes A. Elmen, James E. Fagan, J. J. Tweddle), real estate, land, loan agts, 1015 1/2 Congress ave."
+  }
+]

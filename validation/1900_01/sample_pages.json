@@ -1,0 +1,13 @@
+{
+  "year_vol": "1900_01",
+  "seed": 251711,
+  "sample_size": 5,
+  "eligible_page_count": 368,
+  "sampled_pages": [
+    78,
+    152,
+    230,
+    280,
+    393
+  ]
+}

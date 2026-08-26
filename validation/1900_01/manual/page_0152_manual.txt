@@ -1,0 +1,225 @@
+# Manual transcription worksheet - PDF page 152
+#
+# Open page 152 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+[
+  {
+    "line": "DUNBAR CHARLES R. (Rue & Dunbar), architect, bds 803 Main."
+  },
+  {
+    "line": "Duncan Abraham (c), lab D. N. Co., r. 3016 Conti."
+  },
+  {
+    "line": "Duncan Alice (wid Chas. A.). r. 8 John pl."
+  },
+  {
+    "line": "Duncan Ann E. (wid R. M.), r. 912 Wagner."
+  },
+  {
+    "line": "Duncan Annie Miss, opr tel. exc., h. 912 Wagner."
+  },
+  {
+    "line": "Duncan Annie Miss, slslady H. Weingarten & Adels, h. 1008 Hardy."
+  },
+  {
+    "line": "Duncan Annie (c), r. 1103 Howe."
+  },
+  {
+    "line": "Duncan Gaylord T., wks S. W. Tel & Tel. Co., r. 912 Wagner."
+  },
+  {
+    "line": "Duncan George (c), wks S. P. shops, r. 11 Schilling."
+  },
+  {
+    "line": "Duncan Harry, cigarmkr M. Gabert, bds Mansion House."
+  },
+  {
+    "line": "Duncan James (c), wks J. J. Settegast, r. rear 3009 Harrisburg rd."
+  },
+  {
+    "line": "Duncan James F. Rev., pastor Second Baptist church, physician, surgeon, propr Magnolia drug store, 2212 Odin ave, r. same. Phone 1206-3 rings."
+  },
+  {
+    "line": "Duncan Jeremiah (c), h. Abraham Duncan."
+  },
+  {
+    "line": "Duncan John W., wks S. W. Tel. & Tel. Co., r. 912 Wagner."
+  },
+  {
+    "line": "Duncan Lawyer (c), wks Magnolia compress, r. es Bremond, 1 blk s of Baron."
+  },
+  {
+    "line": "Duncan Leanna (c), h. Boston York."
+  },
+  {
+    "line": "Duncan Maria (c), r. sw cor Mar\" New Orleans ave."
+  },
+  {
+    "line": "Duncan M. F., bds Avenue House."
+  },
+  {
+    "line": "Duncan Rosa (c), servt Preston King, r. same."
+  },
+  {
+    "line": "Duncan Samuel (c), wks J. J. Settegast, sr."
+  },
+  {
+    "line": "Duncan Sarah (c), servt W. G. Sears, r. same."
+  },
+  {
+    "line": "Duncan Van (c), lab H. & T. C. frt depot, r. 211 Robin."
+  },
+  {
+    "line": "Duncan William (c), lab; r. ss Sims bayou rd, 1/2 mile se of city."
+  },
+  {
+    "line": "Dunham Hattie M. (wid L. B.), r. 2003 Walker ave."
+  },
+  {
+    "line": "Dunham Lucius H. (c), lab, r. rear 1915 Runnels."
+  },
+  {
+    "line": "Dunham—See also Dunnam."
+  },
+  {
+    "line": "Dunigan Lucinda (c), r. 820 Hobson."
+  },
+  {
+    "line": "Dunigan Nellie (c), servt N. S. Meldrum, r. same."
+  },
+  {
+    "line": "Dunkerly Harry, blksmith B. A. Riesner, r. 3510 Center."
+  },
+  {
+    "line": "Dunks Prince, Robbie and Susie, h. A. W. McKinney, sr."
+  },
+  {
+    "line": "DUNLAP CHARLES F., dentist, 507 1/2 Main, C. phone 212, rms 1309 Capitol ave, bds 508 Caroline."
+  },
+  {
+    "line": "Dunlap Devereux G., in charge oil dept M. & P. Oil Co., r. 2518 San Jacinto."
+  },
+  {
+    "line": "Dunlap Ellen (c), r. 1611 Magnolia ave."
+  },
+  {
+    "line": "Dunlap Lewis (c), chile stand, Market square, r. 1310 Beach."
+  },
+  {
+    "line": "Dunlap Rosa Miss, bds Miss Lulu Gray."
+  },
+  {
+    "line": "Dunlap Willie (c), cook Charles Weiss, r. same."
+  },
+  {
+    "line": "Dunlap Zachariah C. (c), wks S. P. shops, r. ss Nance bt Clark, Meadow."
+  },
+  {
+    "line": "Dunlavy Alfred (c), lab, r. 2603 Dallas ave."
+  },
+  {
+    "line": "Dunlay Charles A., clk Dunlay Hardware Co., h. J. S. Dunlay."
+  },
+  {
+    "line": "Dunlay Jerry S., propr J. S. Dunlay Hardware Co., 410-412 Travis, r. same."
+  },
+  {
+    "line": "DUNLAY J. S. HARDWARE Co. (Jerry S. Dunlay, propr), whol. and retail hardware, stoves, tinware, guns, pistols, ammunition, sportsmen's supplies, gun and locksmith, 410-412 Travis. Phones 241. See lower right lines."
+  },
+  {
+    "line": "Dunlay William H., student Massey college, h. J. S. Dunlay."
+  },
+  {
+    "line": "Dunlevy Annie (c), wks Clara Fields, r. same."
+  },
+  {
+    "line": "Dunlevy John (c), barber, 1507 Congress ave, rms same."
+  },
+  {
+    "line": "Dunlop Ellen (wid A. M.), r. 1902 Smith."
+  },
+  {
+    "line": "Dunlop John, clk T. & N. O. frt depot, h. 1902 Smith."
+  },
+  {
+    "line": "Dunlop Sadie and Emma Misses, h. Howard Shurter."
+  },
+  {
+    "line": "Dunn Albert E., engr T. & N. O. R. R., r. 1103 James. Phone 1267-4 rings."
+  },
+  {
+    "line": "Dunn Charles, appc blksmith S. P. shops, h. 1613 Gentry."
+  },
+  {
+    "line": "Dunn Charles A., frt condr T. & N. O. R. R., r. 1213 McKee."
+  },
+  {
+    "line": "Dunn DeWitt C., r. 1109 Fannin."
+  },
+  {
+    "line": "Dunn DeWitt C., jr., collector T. W. House's bank, h. 1104 Lamar ave."
+  },
+  {
+    "line": "DUNN FRANK, STOCK, bond, collateral broker, diamonds, watches, jewelry, guns, pistols, 312 Main, 1010 Congress ave, C. phone 1189, bds Hotel Bristol."
+  },
+  {
+    "line": "Dunn Henrietta (wid E. D.), r. 407 Lamar."
+  },
+  {
+    "line": "Dunn John, h. St. Joseph's Infirmary."
+  },
+  {
+    "line": "Dunn John, car rpr S. P. shops, r. 1613 Gentry."
+  },
+  {
+    "line": "Dunn John P., appc machst S. P. shops, h. 1613 Gentry."
+  },
+  {
+    "line": "Dunn Katie E. Miss, teacher Hamilton public school, h. 407 Lamar ave."
+  },
+  {
+    "line": "Dunn Matthew A., groceries, beer, 1601 Houston ave, r. same. C. phone 1289."
+  },
+  {
+    "line": "Dunn Mattie (wid J. H.), r. rear 1307 Preston ave."
+  },
+  {
+    "line": "Dunn Patrick, wks S. P. shops, bds 1419 Montgomery ave."
+  },
+  {
+    "line": "Dunn Perry (c), boilerwasher H. E. & W. T. shops, r. ss Cline, 5 blks e of Cage."
+  },
+  {
+    "line": "Dunn Sarah O (wid George), r. 911 Charles."
+  },
+  {
+    "line": "DUNN THOMAS C., Cashier T. W. House, bankers, 203 Main, phone 14, asst secy and treasr Union Compress & Warehouse Co., also notary, r. 1104 Lamar ave cor Fannin. Phone 1027-5 rings."
+  },
+  {
+    "line": "Dunn Tony C., brakeman T. & N. O. R. R., bds 1213 McKee."
+  },
+  {
+    "line": "DUNN TRACY B., Attorney, Notary, also U. S. commissioner, Eastern dist. of Texas, office room 6 Camp bldg, 210 1/2 Fannin, r. 1109 Fannin."
+  },
+  {
+    "line": "Dunnam Eugene H., physician, surgeon, office and r. 1713 Hardy."
+  },
+  {
+    "line": "Dunnam Evander L., teamster, r. nw cor Scott, Byron."
+  },
+  {
+    "line": "Dunovant Adelia A. Miss, h. Wm. Dunovant."
+  },
+  {
+    "line": "Dunovant William, planter, r. 1704 Rusk ave."
+  },
+  {
+    "line": "Dupey Belle Miss, dressmkr, bds 2007 Capitol."
+  }
+]

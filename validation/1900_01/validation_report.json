@@ -1,0 +1,80 @@
+{
+  "year_vol": "1900_01",
+  "seed": 251711,
+  "sampled_pages": [
+    78,
+    152,
+    230,
+    280,
+    393
+  ],
+  "near_match_threshold": 0.9,
+  "totals": {
+    "pages_scored": 5,
+    "manual_lines": 365,
+    "exact_matches": 365,
+    "near_matches": 0,
+    "missed": 0,
+    "spurious": 0,
+    "line_accuracy": 1.0,
+    "char_accuracy": 1.0
+  },
+  "per_page": [
+    {
+      "page": 78,
+      "manual_lines": 75,
+      "pipeline_lines": 75,
+      "exact": 75,
+      "near": 0,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 1.0,
+      "char_accuracy": 1.0
+    },
+    {
+      "page": 152,
+      "manual_lines": 71,
+      "pipeline_lines": 71,
+      "exact": 71,
+      "near": 0,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 1.0,
+      "char_accuracy": 1.0
+    },
+    {
+      "page": 230,
+      "manual_lines": 85,
+      "pipeline_lines": 85,
+      "exact": 85,
+      "near": 0,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 1.0,
+      "char_accuracy": 1.0
+    },
+    {
+      "page": 280,
+      "manual_lines": 81,
+      "pipeline_lines": 81,
+      "exact": 81,
+      "near": 0,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 1.0,
+      "char_accuracy": 1.0
+    },
+    {
+      "page": 393,
+      "manual_lines": 53,
+      "pipeline_lines": 53,
+      "exact": 53,
+      "near": 0,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 1.0,
+      "char_accuracy": 1.0
+    }
+  ],
+  "discrepancies": []
+}

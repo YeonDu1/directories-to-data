@@ -1,0 +1,267 @@
+# Manual transcription worksheet - PDF page 230
+#
+# Open page 230 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+[
+  {
+    "line": "Jabins Edward, butcher Houston packery."
+  },
+  {
+    "line": "Jack Bejeste, fish dealer, stall 84 Central mkt, r. 805½ Congress ave."
+  },
+  {
+    "line": "Jacklich Lena Miss, wks Jacob Levy, r. same."
+  },
+  {
+    "line": "Jackson Alexander (c), carp, r. 11 Smith al. bt Pease, Jefferson aves."
+  },
+  {
+    "line": "Jackson Alexander (c), lab, r. 23 John pl."
+  },
+  {
+    "line": "Jackson Alice (c), r. rear 1509 Keene."
+  },
+  {
+    "line": "Jackson Alice (c), r. 1815 Moore."
+  },
+  {
+    "line": "Jackson Alice (c), r. ns Kessler bt 5th, 6th."
+  },
+  {
+    "line": "Jackson Alonzo (c), wks M. D. Foote, r. same."
+  },
+  {
+    "line": "Jackson Amelia (c), r. ws Montgomery rd, 2 blks n of Maggie."
+  },
+  {
+    "line": "Jackson Anderson (c), wks S. P. shops, r. ne cor Worms, Lee."
+  },
+  {
+    "line": "Jackson Andrew (c), lab Cleveland press, h. 2716 Conti."
+  },
+  {
+    "line": "Jackson Andrew (c), lab, bds 1602 Robin."
+  },
+  {
+    "line": "Jackson Andrew (c), wks R. A. Grant, sr., r. same."
+  },
+  {
+    "line": "Jackson Andrew L., attorney, office 18 Gibbs bldg, phone 474, r. 911 Dallas ave. Phone 1734."
+  },
+  {
+    "line": "Jackson Annie L. (c), r. 2203 Hutchins."
+  },
+  {
+    "line": "Jackson Arthur (c), waiter The Lawlor, r. 710 Girard."
+  },
+  {
+    "line": "Jackson Arthur B. (c), porter H. & T. C. R. R., genl offices, rms 1017 Girard."
+  },
+  {
+    "line": "Jackson Benjamin (c), wks Houston packery, r. rear 3011 Harisburg rd."
+  },
+  {
+    "line": "Jackson Bertie (c), r. 9 N. E. Broadway."
+  },
+  {
+    "line": "Jackson Bettie (c), r. 618 Robin."
+  },
+  {
+    "line": "Jackson Callie (c), h. 514 Andrews."
+  },
+  {
+    "line": "Jackson Celia (c), servt W. I. Williamson."
+  },
+  {
+    "line": "Jackson Charles, wks Hutchins House, r. 1218 McKee."
+  },
+  {
+    "line": "Jackson Charles (c), porter Cohen Bros."
+  },
+  {
+    "line": "Jackson Charles (c), lab, h. 809 Brazos."
+  },
+  {
+    "line": "Jackson Charles (c), porter J. V. Durrenberger, r. 1508 Moore."
+  },
+  {
+    "line": "Jackson Charles (c), wks M. & P. oil mill, h. 617 Trinity."
+  },
+  {
+    "line": "Jackson Charles W., wks H. & T. C. shops, r. 1411 Edwards."
+  },
+  {
+    "line": "Jackson Clara (wid Jacob), wks Mrs. Sarah Cohen, r. same."
+  },
+  {
+    "line": "Jackson Clara (c), r. 1109 Bagby."
+  },
+  {
+    "line": "Jackson Curtis (c), lab, bds David Handley."
+  },
+  {
+    "line": "Jackson Daniel (c), porter, r. ws St. Emanuel bt Calhoun, Pierce aves."
+  },
+  {
+    "line": "Jackson David (c), lab, r. 617 Jefferson ave."
+  },
+  {
+    "line": "Jackson Dawson (c), wks H. & T. C. shops, bds 1103 Chambers."
+  },
+  {
+    "line": "Jackson Delia (c), h. 1913 Live Oak."
+  },
+  {
+    "line": "Jackson Della (c), servt, h. 1 White Oak pl."
+  },
+  {
+    "line": "Jackson Dennard (c), switchman H. & T. C., r. 1106 West."
+  },
+  {
+    "line": "Jackson Eddie (c), h. 1016 Hill."
+  },
+  {
+    "line": "Jackson Edward (c), brickmason, r. 1603 Robin."
+  },
+  {
+    "line": "Jackson Edward (c), lab, r. rear 1703 Main."
+  },
+  {
+    "line": "Jackson Eldridge (c), wks E. W. Sewall, r. same."
+  },
+  {
+    "line": "Jackson Ella (c), h. 1308 Clark."
+  },
+  {
+    "line": "Jackson Ella (c), h. Jake Dennard."
+  },
+  {
+    "line": "Jackson Ella (c), h. Miller Coleman."
+  },
+  {
+    "line": "Jackson Ella (c), servt, h. 2609 Dallas ave."
+  },
+  {
+    "line": "Jackson Ella (c), wks M. Kahen, r. same."
+  },
+  {
+    "line": "Jackson Elvina Mrs., r. rear 84 Pine."
+  },
+  {
+    "line": "Jackson Emanuel (c), lab, bds 1513 Moore."
+  },
+  {
+    "line": "Jackson Emma (c), h. Henry Taylor, nr creosote works."
+  },
+  {
+    "line": "Jackson Emma (c), r. 1914 St. Emanuel."
+  },
+  {
+    "line": "Jackson Emma (c), wks M. Zax, r. same."
+  },
+  {
+    "line": "Jackson Emma V. (wid W. W.), furnished rooms, over 1219 Congress ave. C. phone 1152."
+  },
+  {
+    "line": "Jackson Emma W. (wid T. E.), r. 1818 Fannin"
+  },
+  {
+    "line": "Jackson Estora (c), h. Henry Diggs."
+  },
+  {
+    "line": "Jackson Everett C., beer saloon, 2020 Congress ave, r. same."
+  },
+  {
+    "line": "Jackson Fannie (wid H. I.), r. 1118 Polk ave."
+  },
+  {
+    "line": "Jackson Fannie(c), r. ss Gillespie bt Clark, Meadow."
+  },
+  {
+    "line": "Jackson Fannie (c), r. 1818 Maple. Phone 1749."
+  },
+  {
+    "line": "Jackson Flora (c), r. 311 Austin."
+  },
+  {
+    "line": "Jackson Frank (c), del. clk Hamilton Bros., r. 812 Bagby."
+  },
+  {
+    "line": "Jackson Fred (c), wks S. S. Z. Thompson."
+  },
+  {
+    "line": "Jackson George (c), cook Colby restaurant, r. 516 Cleveland."
+  },
+  {
+    "line": "Jackson George (c), lab, h. rear 1403 Franklin ave."
+  },
+  {
+    "line": "Jackson George (c), lab, h. ws Velasco bt Bell, Leeland aves."
+  },
+  {
+    "line": "Jackson George (c), wks W. I. Williamson, r. same."
+  },
+  {
+    "line": "Jackson George W., painter, r. over 2202 Kane"
+  },
+  {
+    "line": "Jackson Georgie (c), r. 1310 Mary."
+  },
+  {
+    "line": "Jackson Grace (c), servt Mrs. M. Kodtler, r. same."
+  },
+  {
+    "line": "Jackson Harry, clk Mistrot Bros. & Co., bds 1914 Texas ave."
+  },
+  {
+    "line": "Jackson Hattie (c), wks Geo. F. Bolmer, h. sw cor Loraine, Carr."
+  },
+  {
+    "line": "Jackson Henry, oiler Southern oil mill, r. 3410 Washington."
+  },
+  {
+    "line": "Jackson Henry (c), lab, h. 1508 Moore."
+  },
+  {
+    "line": "Jackson Henry (c), lab, r. 108 Pless."
+  },
+  {
+    "line": "Jackson Henry (c), wks Robt. L. Gray, r. same."
+  },
+  {
+    "line": "Jackson Hester (c), r. 2609 Dallas ave."
+  },
+  {
+    "line": "Jackson Howard (c), wks S. P. shops, r. 2610 Odin ave."
+  },
+  {
+    "line": "Jackson Ida (c), r. 523 Texas ave."
+  },
+  {
+    "line": "Jackson Ida E. (wid J. B.), r. 1216 Providence"
+  },
+  {
+    "line": "Jackson Irving (c), wks Wharton Bates, r. same."
+  },
+  {
+    "line": "Jackson Isaac (c), train porter H. E. & W. T. Ry, r. 1213 Fuller."
+  },
+  {
+    "line": "Jackson Jack C. (c), servt J. J. Gannon, r. rear 2910 Brazos."
+  },
+  {
+    "line": "Jackson James (c), lab, r. 1318 Clark."
+  },
+  {
+    "line": "Jackson James (c), lab, r. 1710 Houston ave."
+  },
+  {
+    "line": "Jackson James (c), lab, r. rear 2008 Houston."
+  }
+]
