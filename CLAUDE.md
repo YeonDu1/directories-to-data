@@ -14,6 +14,9 @@ bounding boxes and no layout classification.
 ```bash
 export GEMINI_API_KEY="..."
 
+# New edition only: bootstrap config/<year_vol>/abbreviations.json once, first
+python scripts/00_extract_abbreviations.py 1900_01 data/1900_01/1900-1901.pdf --page 55
+
 # Full unattended run (stages 1-3, tee'd to logs/run_<year_vol>_<stamp>.log)
 ./run_all.sh 1900_01 data/1900_01/1900-1901.pdf
 
@@ -32,15 +35,25 @@ Useful flags while iterating:
 Dependencies are not pinned anywhere; install manually:
 `pip install pymupdf pydantic google-genai langsmith python-dotenv`.
 
-The API key is read from `GEMINI_API_KEY`. Both API-calling stages call `load_dotenv()`,
-so a repo-root `.env` (gitignored) is enough; an exported shell variable overrides it.
-`run_all.sh` sources `.env` under the same precedence before its own fail-early guard.
+The API key is read from `GEMINI_API_KEY`. All three API-calling scripts (0, 1, 3) call
+`load_dotenv()`, so a repo-root `.env` (gitignored) is enough; an exported shell variable
+overrides it. `run_all.sh` sources `.env` under the same precedence before its own
+fail-early guard.
 
 ## Pipeline architecture
 
-Three sequential stages plus a manual validation step. Each stage's output is the next
-stage's input, and every stage is resumable — never assume a re-run redoes work.
+Three sequential stages plus a one-time bootstrapping step and a manual validation step.
+Each stage's output is the next stage's input, and every stage is resumable — never assume
+a re-run redoes work.
 
+0. **`00_extract_abbreviations.py` — bootstrap a new edition's abbreviations key.** Not
+   part of `run_all.sh`; run once per new edition before stage 1, which hard-fails without
+   `config/<year_vol>/abbreviations.json`. Takes `--page N` or `--pages "N-M"` for the front
+   matter page(s) containing the "Abbreviations Used in the Directory" table (falls back to
+   `page_layout.json`'s `abbreviations` block, either `{"page": N}` or
+   `{"page_start", "page_end"}`, if neither flag is given). Refuses to overwrite an existing
+   `abbreviations.json` unless `--force` is passed. Same split-and-retry, explicit
+   `MAX_OUTPUT_TOKENS`, `@traceable`, and `atomic_write` conventions as stages 1 and 3.
 1. **`01_ocr_entries.py` — verbatim transcription.** Slices the requested pages out of the
    source PDF with PyMuPDF into a new in-memory PDF and sends *that* to Gemini (not
    rasterized JPEGs — this matches the AI Studio workflow that was validated for this
@@ -82,10 +95,14 @@ key on the command line — no code changes.
 
 - `config/<year_vol>/abbreviations.json` — required by stage 1; injected into the prompt so
   the model can disambiguate characters. Stage 1 hard-fails if it is missing or empty.
+  Bootstrap it for a new edition with stage 0 (`00_extract_abbreviations.py`).
 - `config/<year_vol>/page_layout.json` — `entries_source.page_start`/`page_end` is the
   default page range for stage 1 when `--pages` is omitted. Other keys record where
   front-matter sections (street directory, ward boundaries, guide to streets, …) live and
-  which standalone PDF they were split into.
+  which standalone PDF they were split into. An optional `edition` block
+  (`{"city", "year_label", "publisher"}`) is read by stages 1 and 3's `edition_context()`
+  to describe the edition in the prompt (e.g. "the 1900-1901 Houston city directory,
+  published by Morrison & Fourmy"); missing fields fall back to generic wording.
 - `config/<year_vol>/toc_raw.json` → `toc_classified.json` — the volume's table of contents,
   raw then annotated with `canonical_type`/`tier`/`needs_subscan`. Not yet consumed by any
   script; it is the map for extending coverage beyond the General Directory of Names.
@@ -95,15 +112,18 @@ key on the command line — no code changes.
 - Source PDFs and `logs/` are gitignored; the JSON in `data/` and `config/` is committed.
   Scripts assume the PDF sits at `data/<year_vol>/<name>.pdf` but nothing enforces it.
 - Prompts are the substance of this project — most behavior lives in `build_prompt()` in
-  stage 1 and `PARSE_PROMPT` in stage 3, not in Python logic. Changing prompt wording
-  changes output shape, so treat prompt edits as the significant change.
+  stages 0 and 1 and `build_parse_prompt()`/`PARSE_PROMPT_TEMPLATE` in stage 3, not in
+  Python logic. Changing prompt wording changes output shape, so treat prompt edits as the
+  significant change.
 - Transcription is strictly verbatim: abbreviations, ditto marks, and `[?]` uncertainty
   markers are preserved as printed and never expanded. Advertisements are skipped.
 - The `(c)` race marker and the `race_marker` field are intentionally retained as printed —
   they are historical source data preserved for research.
-- Both model calls run at `temperature=0`; stage 1 uses `thinking_level="high"`, stage 3
-  `"medium"`. `MODEL = "gemini-3.5-flash"` is hardcoded near the top of each script.
-- Both API-calling stages are wrapped with `@traceable` (LangSmith); `langsmith` must be
-  installed even if tracing is not configured.
+- All three model calls run at `temperature=0`; stages 0 and 1 use `thinking_level="high"`,
+  stage 3 `"medium"`. `MODEL = "gemini-3.5-flash"` is hardcoded near the top of each script.
+- All three API-calling scripts are wrapped with `@traceable` (LangSmith); `langsmith` must
+  be installed even if tracing is not configured. Each also sets `max_output_tokens`
+  explicitly and applies the same split-and-retry pattern on a malformed response, rather
+  than dropping the whole batch/range.
 - All paths are resolved relative to the current working directory — run scripts from the
   repo root.
