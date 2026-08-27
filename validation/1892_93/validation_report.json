@@ -1,0 +1,113 @@
+{
+  "year_vol": "1892_93",
+  "seed": 450146,
+  "sampled_pages": [
+    243,
+    431,
+    543
+  ],
+  "near_match_threshold": 0.9,
+  "totals": {
+    "pages_scored": 3,
+    "manual_lines": 129,
+    "exact_matches": 122,
+    "near_matches": 7,
+    "missed": 0,
+    "spurious": 0,
+    "line_accuracy": 0.9457364341085271,
+    "char_accuracy": 0.9990662140311024
+  },
+  "per_page": [
+    {
+      "page": 243,
+      "manual_lines": 44,
+      "pipeline_lines": 44,
+      "exact": 40,
+      "near": 4,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 0.9090909090909091,
+      "char_accuracy": 0.9983356810737763
+    },
+    {
+      "page": 431,
+      "manual_lines": 39,
+      "pipeline_lines": 39,
+      "exact": 38,
+      "near": 1,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 0.9743589743589743,
+      "char_accuracy": 0.9995864350703061
+    },
+    {
+      "page": 543,
+      "manual_lines": 46,
+      "pipeline_lines": 46,
+      "exact": 44,
+      "near": 2,
+      "missed": 0,
+      "spurious": 0,
+      "line_accuracy": 0.9565217391304348,
+      "char_accuracy": 0.9993239277179155
+    }
+  ],
+  "discrepancies": [
+    {
+      "page": 243,
+      "near_matches": [
+        {
+          "manual": "Girardy Theodore, carriage driver Wall & Stabe, rms ns Capitol ave bt Travis, Milam.",
+          "pipeline": "Girardy Theodore, carriage driver Wall & Stabe, rms ns Capitol ave bt Travis, Milan.",
+          "similarity": 0.9881
+        },
+        {
+          "manual": "GIRAUD RICHARD A., Cashier Commercial Nat’l Bank, r. 1718 Main cor Jefferson ave.",
+          "pipeline": "GIRAUD RICHARD A., Cashier Commercial Nat'l Bank, r. 1718 Main cor Jefferson ave.",
+          "similarity": 0.9877
+        },
+        {
+          "manual": "Gleason Daniel, ’bus driver Globe Hotel, r. same.",
+          "pipeline": "Gleason Daniel, 'bus driver Globe Hotel, r. same.",
+          "similarity": 0.9796
+        },
+        {
+          "manual": "Glenn C. D., frt condr So. Pac. Ry.",
+          "pipeline": "Glenn C. B., frt condr So. Pac. Ry.",
+          "similarity": 0.9714
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "page": 431,
+      "near_matches": [
+        {
+          "manual": "Reil Michael, section hand S. A. & A. P. Ry, bds T. O’Connell.",
+          "pipeline": "Reil Michael, section hand S. A. & A. P. Ry, bds T. O'Connell.",
+          "similarity": 0.9839
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    },
+    {
+      "page": 543,
+      "near_matches": [
+        {
+          "manual": "Woods Nellie J. (c), teacher 6th ward public school, r. 1408 Travis.",
+          "pipeline": "Woods Nellie J. (c), teacher 5th ward public school, r. 1408 Travis.",
+          "similarity": 0.9853
+        },
+        {
+          "manual": "Woodson Joseph, bartender John O’Brien, r. 1607 Congress ave.",
+          "pipeline": "Woodson Joseph, bartender John O'Brien, r. 1607 Congress ave.",
+          "similarity": 0.9836
+        }
+      ],
+      "missed": [],
+      "spurious": []
+    }
+  ]
+}

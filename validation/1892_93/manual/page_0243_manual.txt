@@ -1,0 +1,54 @@
+# Manual transcription worksheet - PDF page 243
+#
+# Open page 243 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+Gilmore George (c), lab H. & T. C. cotton platform, r. 1414 Hutchings.
+Gilmore Ida (c), h. Jane Jackson.
+Gilmore Lula (c), r. al. rear 2405 Commerce ave.
+Gilmore McCauley (c), h. Flora Freeman, 1709 Fannin.
+Gilmore Russell (c), drayman James Bute, r. 2013 Bailey.
+Gilmore William (c), wks So. Pac. shops, r. 2712 Conti.
+Gilstrap Elizabeth (wid John J.), r. 1007 San Felipe.
+Gimbel Louis, commission merchant, r. 1518 Franklin ave cor Crawford.
+Girardeau St. Julian, r. ns Hays bt Crockett, Jasper.
+Girardy Theodore, carriage driver Wall & Stabe, rms ns Capitol ave bt Travis, Milam.
+Giraud James A., clk C. Grunewald, h. R. A. Giraud.
+GIRAUD RICHARD A., Cashier Commercial Nat’l Bank, r. 1718 Main cor Jefferson ave.
+Giroux Alphonse, tin type artist, 1113 Franklin ave, r. 1407 Saulnier.
+Gisstar Charles (c), r. ns Spring bt Oak, Holly.
+Gisstar Mattie (c), h. Mary Chestnut.
+Giton Henry (c), butcher, r. 1017 Dowling cor Lamar ave.
+Givens George W., carp C. H. Bering, r. 619 Caroline cor Capitol ave.
+Givens William M., carp, r. ss Lubbock bt Trinity, Colorado.
+Glasby Dollie (c), r. 2108 Walker ave.
+Glaser Albert, painter So. Pac. shops, h. Julius Glaser.
+Glaser Julius, carp, r. nw cor Summer, Elder.
+Glasgow William, clk land dept H. & T. C. Ry, r. ws Bagby bt Drew, Tuam aves.
+Glass Anthony M., car rpr So. Pac. shops, r. es Granger s of Michaud.
+Glass Charles G., printer, r. 2311 Commerce ave.
+Glass John, office boy Dr. M. Perl.
+Glass John R., pass brakeman H. & T. C. Ry, h. Mrs. Rachel Glass.
+Glass Louisa (c), r. sw cor Brewster, Oats.
+Glass Rachel (wid Wm. H.), r. 2311 Commerce ave.
+Glass William, appc plumber Gill & Co., h. Wm. W. Glass.
+Glass William W., constable prect No. 1, office 1114 Preston ave, r. 1903 Commerce ave cor Hamilton.
+Glasscock David, wks planing mill, bds Mrs. N. E. Wheat.
+Glasscock Martha C. (wid Benjamin), h. Mrs. R. E. Davis.
+Glaviano Sarah (wid Joseph), groceries, beer, ne cor Hardy, Brooks, r. same.
+Glaviano Vito, vegetable peddler, r. 514 Walker ave.
+Glazier John R., frt condr H. E. & W. T. Ry, r. se cor Brooks, McKee.
+Gleason Daniel, ’bus driver Globe Hotel, r. same.
+Gleason Ellen (wid Matthew John), r. 1412 Austin.
+Gleason James W., h. Wm. Gleason.
+Gleason William, lab, r. ws Johnson bt Edwards, Bingham.
+Glenn Catherine (c), r. ss Usher bt Sydnor, Bayou.
+Glenn C. D., frt condr So. Pac. Ry.
+Glenn John (c), lab, r. ns Edwards bt Houston ave, Johnson.
+Glenn John G., foreman boilermkr H. & T. C. shops, bds John Loeffler.
+Glenn Louisa (c), wks Emile Levy, r. same.

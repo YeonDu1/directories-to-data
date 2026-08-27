@@ -1,0 +1,49 @@
+# Manual transcription worksheet - PDF page 431
+#
+# Open page 431 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+Reedy Mittie (c), r. ws Clark bt Ann, bayou.
+Reep Henry, carp H. C. St. Ry Co., bds Schulte House.
+Rees Frederick, machinist H. & T. C. shops, bds Mrs. H. Rottenstein.
+Reese Bartow T., cotton marker, r. 2106 Washington.
+Reese Dora (c), wks E. W. Browne, r. same.
+Reese George, section hand H. & T. C. yds, bds Joseph Farrell.
+Reese James C., policeman, r. ss Liberty bt Hill, Clark.
+Reese John (c), wks So. Pac. creosote works, r. es Mary bt Nance, Liberty.
+Reese Maria (c), r. 115 Saulnier.
+Reese Minerva (c), h. Maria Reese.
+Reese Rosa (c), wks Wm. Angerhoefer, h. Maria Reese.
+Reese Savannah (c), r. 1208 Andrews.
+Reeves Dollie (c), r. ws Morgan n of Market.
+Reeves D. D., fireman So. Pac. Ry, bds Mrs. M. M. Clark.
+Reeves Gaines (c), carp, r. ws Smith bt Pease, Calhoun aves.
+Reeves George G., trackman, bds Mrs. A. E. Thornton.
+Reeves Richard (c), section hand, h. Bettie Reeves.
+Reeves William (c), lab, r. 711 Saulnier.
+Regan Dominic C., clk W. L. Foley, bds Hutchins House.
+Register Hattie Miss, seamstress Leon Smith Mfg Co., h. Joel M. Jackson.
+Reichardt August, groceries, 1001 San Felipe cor Buckner, r. same.
+Reichardt Charles, blksmith So. Pac. shops, r. 1017 LaBranch cor Lamar.
+REICHARDT FRANK A. (Brasher, Reichardt & Co.), r. 914 Louisiana cor McKinney ave.
+Reichardt Frank A. (Reichardt & Heidelberg), r. 1717 Austin cor Jefferson ave.
+REICHARDT & HEIDELBERG (Frank A. Reichardt, Frank Heidelberg), carpenters, contractors, bldrs, shop 1717 Austin cor Jefferson ave. See advt.
+Reichardt Katie Miss, slslady Mrs. S. E. Labuzan, h. Frank A. Reichardt, 1717 Austin.
+Reichardt Louis, lab So. Pac Ry, bds Lyons House.
+Reichardt Mary F. Miss, teacher Washington street public school, h. Wm. Reichardt.
+Reichardt William, with W. A. Reichardt, 501 Travis cor Prairie ave, r. over store.
+REICHARDT WILLIAM A., Groceries, Western Produce, feed, liquors, cigars, 501 Travis cor Prairie ave, h. Wm. Reichardt. See advt.
+Reichman Clarence S., bkpr Halff & Newbouer Bros., bds. J. L. Souza.
+Reid A. Walter, lab, r. es Carr bt Sumpter, Noble.
+Reid Charles, chief clk I. & G. N. R. R. frt depot, r. 1906 Rusk ave cor Hamilton.
+Reid James E., brakeman I. & G. N. R. R., bds Mrs. A. C. Rasch.
+Reidheimer John, night ydmaster G. C. & S. F. Ry, bds Mrs. Maggie Hogan.
+Reidy Daniel, frt brakeman I. & G. N. R. R., bds 2317 Congress ave.
+Reihl John, tinner Houston cornice works, bds Sunny South.
+Reil Michael, section hand S. A. & A. P. Ry, bds T. O’Connell.
+Reiler Charles, r. 103 Sampson cor Commerce.

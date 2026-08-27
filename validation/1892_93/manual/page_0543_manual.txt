@@ -1,0 +1,56 @@
+# Manual transcription worksheet - PDF page 543
+#
+# Open page 543 of the source PDF and type every directory
+# entry below, one entry per line, in reading order (left column
+# top to bottom, then right column). Merge wrapped lines into one
+# entry. Skip advertisements. Do NOT look at the pipeline output
+# while doing this - that would defeat the purpose.
+#
+# Lines starting with # are ignored by the scorer.
+
+Woods James (c), wks Nicholas Darrow, h. Hester Woods.
+Woods Josephine (c), r. ss Magnolia bt I. & G. N. R. R., Buffalo.
+Woods Julia (c), r. ¼ mile nw of Chaney Junction.
+Woods Julia (c), r. nw cor Maffit, Opelousas.
+Woods Late (c), lab, nw cor Morris, Maffitt.
+Woods Lizzie (c), r. 613 Preston ave.
+Woods Lola (c), wks E. C. Burks, r. 2209 Commerce ave.
+Woods Mary (c), h. Louis Jenkins.
+Woods Minnie (c), wks Wm. M. Read, r. same.
+Woods Nellie J. (c), teacher 6th ward public school, r. 1408 Travis.
+Woods Susan (c), r. ss Roanoke bt Gregg, Cage.
+Woods William (c), lab, r. ns Spring bt Oak, Hickory.
+Woods William (c), lab, r. rear 1219 Houston ave.
+Woodson James B., tailor, shop 1013½ Preston ave, bds John Cayron.
+Woodson Joseph, bartender John O’Brien, r. 1607 Congress ave.
+Wooldridge Mary A. (c), wks Noah Alltmont, r. same.
+Wooldridge Millie (c), r. ns Engelke bt Pless, Grand ave.
+Woolford John D., cotton weigher, r. 1212 Lamar ave.
+Woolford Susan E. (wid J. B.), h. John D. Woolford.
+Woolley Albert, carp, r. 1909 Preston ave.
+Woolley Walter T., carp, h. Albert Woolley.
+Word Robert (c), carp, bds Nancy Garner.
+Word Sylvia (c), h. Henry Macklin.
+Word Thomas J. (c), lab, r. ws Gabel bt Magnolia, Maple.
+Word William (c), brakeman S. A. & A. P. Ry, r. 1009 Chenevert.
+Work Charles A., clk H. & T. C. car shops, rms over 1822 Washington.
+Worley George B., switchman So. Pac. Ry, bds H. Schifer.
+Worley Nathan H., attorney, with M. Looscan, 1107½ Congress ave, r. 1503 Franklin ave.
+Wormley Eliza (c), h. Fannie Powell.
+Worrall Isaac W., machst So. Pac. shops, rms Mrs. Julia Ducoing.
+Worth Angelo J., carp So. Pac. shops, bds Sauter House.
+Wortz Amy (c), r. es Brown bt Washington ave, Center.
+Wortz Edward (c), lab, h. Amy Wortz.
+Wortz James (c), lab, h. Amy Wortz.
+Wottrich Augusta Miss, dressmkr, h. F. Wottrich.
+Wottrich Ferdinand, merchant tailor, 913 Congress ave, r. nw cor Edwards, Beach.
+Wottrich Hermann, tailor F. Wottrich, h. same.
+Wottrich Lizzie Miss, seamstress Lottman Bros., h. F. Wottrich.
+Wrede Alvin C., watchmkr Sweeney, Coombs & Fredericks, bds Globe Hotel.
+Wren Biddie (c), r. 314 Robin.
+Wren Floyd (c), blksmith B. A. Riesner, r. 1214 Cleveland.
+Wren Hansel (c), porter, r. 1216 Cleveland.
+Wren Maria (c), h. Martha Williams, 708 Andrews.
+Wren Sarah (c), h. Henry Fields.
+Wren Theodore (c), drayman, r 407 Saulnier.
+Wright Anderson (c), waiter, r. 512 Louisiana.
